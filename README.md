@@ -1,5 +1,119 @@
 ![ga](ga_cog.png) <br>
 
+# Software Engineering Immersive Remote Flex - Ada
+
+* Class Meetings
+* Instructor Team
+* Communication
+* Course Overview
+* HW Submission Procedure
+* What We Expect From You
+* Graduation Requirements
+* Additional Expectations
+* Group Work Formats
+* Lesson Schedule - 10 Week
+
+## Class Meetings
+* Time: 07/09/2019 - 09/12/2019
+* Format: Tuesday's & Thursdays 8pm - 11pm EST
+* Holidays: None!
+* Before class:
+  * Use the appropriate link below to download lesson materials.
+  * [Join Zoom Room](https://generalassembly.zoom.us/j/954114291)
+  * Let IA know if you are running late!
+* In class:
+  * Review where we are in the course.
+  * Work through lesson modules.
+  * Preview upcoming projects/homework.
+  * Fill out exit ticket.
+* After class (optional):
+  * Ask additional questions on Slack.
+
+
+## Instructor Team
+* Lead Instructor: Madeline O'Moore
+* Instructional Assistant: Mansoor Siddeeq
+
+## Communication
+
+##### Send Madeline and Mansoor Slack message if:
+* You know in advance that you will be missing a class or multiple classes
+* You're sick, overloaded at work, or something comes up and you can't make it to class last minute
+* You will be 10 or more minutes late to class
+* You need to leave early
+* You will be submitting your homework late
+* We will get back to you within 12hrs on weekdays!
+* Weekdays expect responses by Monday morning!
+
+##### Send Madeline a Slack message if:
+* You are having trouble completing your assignments
+* You're struggling with the material
+* You'd like some bonus tasks
+
+**Remember we are here to help you! Please reach out with any questions :)**
+
+## Course Overview
+Learn to code in JavaScript, the native language of the web used by developers the world over.
+
+Build a single-page web app that persists user data and connects to services like Twitter and Facebook via APIs.
+
+Learn the fundamentals of object-oriented programming while receiving support from industry experts and a community of peers.
+
+## HW Submission Procedure - TBD
+* Create a new folder inside of your cloned repository on your computer called `current_week_homework` and copy and paste your homework file for week one here. 
+* Push your changes to your repository from your terminal by changing into your repository from your terminal and running the following commands:
+* `git add .`
+* `git commit -m "current week homework”`
+* `git push`
+* Fill out the Google Form each week with your Github URL for the weeks homework. This can be found in the current weeks homework README file.
+
+
+## What We Expect From You
+### Graduation Requirements
+#### HOMEWORK
+- Students must receive a passing grade of 80% on all homework assignments.
+- To receive a passing grade, students must complete 100% of the minimum tasks specified in that assignment
+####  PROJECTS
+- Students must receive a passing grade on all course projects.
+- Parameters for passing will be explained when the project is assigned.
+####  ZERO ACCOUNT BALANCE
+- Students must have no outstanding balances due on their account
+####  ATTENDANCE 
+- Attendance is taken at the start of every class meeting. 
+- In one-week courses, absences are not permitted. 
+- In 8 & 10 week part-time courses, students are permitted up to 3 excused absences.
+- 3 late arrivals &/or early departures will constitute one absence.
+- Unexcused absences are not permitted unless it’s an exceptional circumstance.
+- Students who have been excessively absent may be withdrawn.
+
+You may have up to a three-day grace period period on a project for extenuating circumstances if you get approval before the due date.
+
+Unexcused absences are not allowed. If you will have to miss a class, notify the IA/LI via Slack ahead of time so that we can mark your absence as excused. You may have a 48-hour grace period for notifying the IA/LI in case of emergency. Acceptable excuses include illness, death or critical illness to a family member of significant other, critical life emergency, and religious observances.
+
+## Additional Expectations
+* Take initiative.
+* Ask for help.
+* Practice, practice, practice.
+
+### Classroom Culture
+
+Let's all agree to:
+* Treat each other with respect
+* Avoid bringing distractions into class
+* Participate in class
+* Be on video during class
+
+### How To Succeed in a Remote Environment
+
+* No distractions during class. This means no cell phones, children around.
+* Make sure to speak up and speak out about any problems you are having! Don't be afraid to ask questions during class! Someone else is probably having this same issue!
+* Carve out at least 7 hours outside a class a week for review and homework. Expect the next 10 weeks to be out of the norm for you. If you have to carve out a personal hour during a family vacation, you will have to do this!
+* Make use of office hours! Find a time that works for you and don't cancel on your instructors :)
+* Hold yourself accountable. Don't let yourself fall behind!
+
+## Group Work Formats
+We will be using breakout rooms to get more personalized learning environments. Make sure to get to know your classmates and use eachother as teachers!
+
 ## Unit 1
 
 | Day | Warm Up Exercise | Lectures | Labs | Homework | Recording |

@@ -4,7 +4,7 @@
 
 ---
 
-Title: Afternoon Lab<br>
+Title: Evening Lab<br>
 Duration: 1 hr 15 mins approx<br>
 Creator: Thom Page <br>
 Topics: Terminal, Errors, While loops, For Loops<br>

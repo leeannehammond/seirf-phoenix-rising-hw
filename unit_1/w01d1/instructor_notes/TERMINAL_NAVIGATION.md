@@ -38,8 +38,8 @@ _After this lesson, students will be able to:_
 
 ## Download and install software necessary for the class
 
-- Atom installed? Or your favorite text editor.
-	- [Download Atom](https://atom.io/)
+- VS Code installed? Or your favorite text editor.
+	- [Download VS Code](https://code.visualstudio.com)
 - Node installed?
 	- [Current version](https://nodejs.org/en/download/current/), **not** LTS
 	- Click on "Macintosh Installer"
