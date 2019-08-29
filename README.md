@@ -73,7 +73,7 @@ Build a single-page web app that persists user data and connects to services lik
 
 Learn the fundamentals of object-oriented programming while receiving support from industry experts and a community of peers.
 
-#hw-submission-procedure
+## #hw-submission-procedure
 ### We will walk through this together the first time!
 * Create a new folder inside of your cloned repository on your computer called `current_week_homework` and copy and paste your homework file for week one here. 
 * Push your changes to your repository from your terminal by changing into your repository from your terminal and running the following commands:
