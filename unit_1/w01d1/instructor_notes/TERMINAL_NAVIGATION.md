@@ -268,17 +268,11 @@ We are going to:
 
 #### Create Files/Directories
 
-* In Terminal, navigate to Documents.
-* Make a directory `w1d1_student_examples`
+* In Terminal, navigate to Desktop.
+* Make a directory `seir-flex-ada`
+* `cd` to `seir-flex-ada` and make a directory `w1d1_student_examples`
 * Go inside the directory
 * Make a file `first_code.js`
-* Open up Atom through Spotlight or the Dock.
-* Go to `Atom -> Install Shell Commands`
-	* this allows you to open Atom using a terminal command
-* Close Atom
-* From inside the `w1d1_student_examples` directory, open Atom from the command line with `atom .` (atom space dot)
-	* **NOTE** This might not work on some systems. If not we will get it sorted out in time. For now, Just open the directory from `File -> Open`, and open the `w1d1_student_examples` directory.
-* When Atom opens, you should see the `w1d1_student_examples` directory and all the files inside the directory (in this case, just the `first_code.js` file.
 
 #### Write/Run Code
 
@@ -294,7 +288,7 @@ Run the code in Terminal
 > `node filename.js`
 > => Hello World!
 
-**Congrats!** You've written your first "Hello World" of wdi-remote!
+**Congrats!** You've written your first "Hello World" of seir-flex!
 
 We can send whatever we want to the console.
 
