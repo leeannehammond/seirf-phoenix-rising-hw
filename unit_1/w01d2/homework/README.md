@@ -524,33 +524,36 @@ With every homework, we'll add a challenge section that is optional. These secti
 
 # Homework submission
 
-Note: This is not how you will be submitting your homework normally. This is just for tonight! We will go over how to submit your homework after your Github lesson.
+You will create one new Github Repository for class that will be where you will host each homework assignment. You will only ever need to create ONE repository (we will do this together right now) and then going forward you will submit homework to this repository as a new neatly labeled folder.
 
-1) Highlight all of your homework answers and **copy** them.
+We will walk through this together right now!
 
-2) Go to Slack. In the `DIRECT MESSAGES` section, click the `+` to send a direct message.
+* Go to your Github Enterprise homepage
+* Click the plus sign in the upper right hand corner of the GHE Navigation
+* Select **New Repository**
+* Name your repository something like `madeline-seir-flex-ada-homework`
+* Make sure to that you repository is created with a `readme.md` and is public (so your instructional team can see your homework)
+* Click **Create Repository**
+* Now we need to clone this repository to our local machines. This will create a connection between your local code and your online submissions!
+* Clone `clone` and select `Clone with HTTPS` and copy the url in the input box
+* Now return to your terminal and `cd desktop`
+* From your `desktop` run `git clone yourcopiedurl`
+* You should now see your cloned folder on your desktop! 
+* ## YOU WILL NOT REPEAT THE ABOVE STEPS EACH WEEK! YOU ONLY NEED ONE REPO FOR HOMEWORK
 
-![dm](https://i.imgur.com/bLpXi39.png)
+### The steps below will be repeated every week for each homework assignment
+* Create a new folder inside of your cloned repository on your computer called `current_week_homework_assignment_name` and copy and paste your homework file for week one here.
+* Push your changes to your repository from your terminal by changing into your repository from your terminal and running the following commands:
 
-3) Search for Michael Merlo
+```
+git add .
+git commit -m "current week homework”
+git push
+```
 
-![Michael](https://i.imgur.com/kBEqaiA.png)
+* Fill out this [Google Form](https://forms.gle/iaTFamd8Ry38Axa4A) with your github link for that specific homework. It will be the same Google Form for each homework.
 
-4) Click `Go`:
 
-A new view will appear and this is the direct Slack conversation between you and the homework grader.
-
-5) Click on the `+` next to the message bar and choose `Code or text snippet`
-
-![snippet](https://i.imgur.com/kJBH4L3.png)
-
-6) Paste a copy of all of the text / code from your homework file to this snippet, add a description in the title with your name and click `Create Snippet`
-
-![create code snippet](https://i.imgur.com/q6v4noo.png)
-
-7) Success! This will automatically send the message. It will look something like this:
-
-![success](https://i.imgur.com/9I7Zp8Y.png)
 
 ---
 
