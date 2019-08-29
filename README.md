@@ -11,8 +11,7 @@
 * Graduation Requirements
 * Additional Expectations
 * Group Work Formats
-* Lesson Schedule, Quick Links & Recordings
-[create an anchor](#anchors-in-markdown)
+* [Lesson Schedule, Quick Links & Recordings](#class-lessons-recordings)
 
 ## Course Meeting Details
 * **Course Dates**: September 3, 2019 - February 29, 2020
@@ -130,7 +129,7 @@ Let's all agree to:
 ## Group Work Formats
 We will be using breakout rooms to get more personalized learning environments. Make sure to get to know your classmates and use eachother as teachers!
 
-## Unit 1
+## #class-lessons-recordings
 
 | Day | Warm Up Exercise | Lectures | Labs | Homework | Recording |
 |:---:|:-----------:|:-------:|:-----------:|:-----------:|:-----------:|
