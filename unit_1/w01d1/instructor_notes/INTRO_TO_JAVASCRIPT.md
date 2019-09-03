@@ -15,7 +15,7 @@ _After this lesson, students will be able to:_
 
 ### What is Programming?
 
-The first few weeks of this course will focus on programming skills. This means learning how to "think like a programmer", and also learning to use tools such as Terminal, Atom, Git, etc.
+The first few weeks of this course will focus on programming skills. This means learning how to "think like a programmer", and also learning to use tools such as Terminal, VSCode, Git, etc.
 
 Loosely speaking, learning to "think like a programmer" involves learning:
 
@@ -50,6 +50,8 @@ JavaScript is the most in-demand language for junior developers, and there's a l
 Let's dive back into programming.
 
 Use the `first_code.js` file from earlier.
+
+Open this file up in VSCode
 
 Error messages are good. They are not adversarial! They are there to help you.
 
@@ -87,7 +89,7 @@ comment
  */
 ```
 
-- Atom shortcut: `⌘ + /`
+- Keyboard shortcut: `⌘ + /`
 
 'Comment out' code that doesn't need to run or that you save for later.
 
