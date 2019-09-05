@@ -232,10 +232,8 @@ If you would learn any two - learn these!
 - You can open as many editors as you like side by side vertically and horizontally. If you already have one editor open, there are multiple ways of opening another editor to the side of the existing one:
 
 - `⌘\` to split the active editor into two.
-- Open to the Side (`⌃Enter`) from the Explorer context menu on a file.
 - Click the Split Editor button in the upper right of an editor. (it looks like a square split into two)
 - Drag and drop a file to any side of the editor region.
-- `Ctrl+Enter` (macOS: `Cmd+Enter`) in the Quick Open (`⌘P`) file list
 
 
 ### Toggle Comments Multiple Lines at a Time
@@ -271,7 +269,7 @@ If you would learn any two - learn these!
 ### Replace Across Multiple lines
 - Highlight text to be replaced
 - `⌘D` - to highlight next instance (as many as you'd like )
-- `⇧⌘L` - to highlight all isntances
+- `⇧⌘L` - to highlight all instances
 - <details><summary>Screenshot Highlight One Instance of Text </summary>
 
 ![screenshot](https://i.imgur.com/rzbqt3V.png)</details>
