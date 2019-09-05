@@ -3,7 +3,6 @@
 # Software Engineering Immersive Remote Flex - Ada
 MADELISNBFGUKG<SGHK>
 
-hello!
 * Course Meeting Details
 * Instructor Team
 * Communication
