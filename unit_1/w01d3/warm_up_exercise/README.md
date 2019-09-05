@@ -283,6 +283,10 @@ If you would learn any two - learn these!
 
 ![screenshot](https://i.imgur.com/NeKG7jI.png)</details>
 
+
+## Extensions
+[Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
+
 <hr>
 
 ## Typing
