@@ -1,7 +1,6 @@
 ![ga](ga_cog.png) <br>
 
 # Software Engineering Immersive Remote Flex - Ada
-MADELISNBFGUKG<SGHK>
 
 * Course Meeting Details
 * Instructor Team
