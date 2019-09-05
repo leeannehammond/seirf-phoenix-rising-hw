@@ -181,16 +181,12 @@ Inside of tonight's `homework` folder:
 1. A `resume_page` folder with files: `index.html`, `projects.html`, and `style.css`
 
 ## Submission Guidelines
-
-- You should have been adding and committing along the way, but please type `git status` one last time to make sure that everything is commited. If it's not, please add, commit, and push it so we can see all your work!
-- To submit your homework, follow the instructions found in the [wiki](wiki/Homework-Submission). Remember to submit this to the [class repo](https://git.generalassemb.ly/Web-Development-Immersive-Remote/WDIR-Stan-Lee/) in the [issues section](https://git.generalassemb.ly/Web-Development-Immersive-Remote/WDIR-Stan-Lee/issues).
-- When you try to submit an issue, there will be a form that looks like shown below, please fill it out before you create the issue so that we can see how you're doing/feeling so far!
-
-![](https://i.imgur.com/39jmFEX.png)
-
-**IMPORTANT!** As part of homework tonight you are  **required to create the github issue between 7 - 10pm EST.** See below for a link to explicit directions on submitting your homework. If you run into problems during 7 - 10pm EST, your TA will be available to answer questions.
-
-You can continue to work on the homework even after you create the github issue. But, again, as part of your homework tonight, you should submit the issue during TA hours!
+* Create a new folder inside of your cloned repository on your computer called `current_week_homework` and copy and paste your homework file for week one here. 
+* Push your changes to your repository from your terminal by changing into your repository from your terminal and running the following commands:
+* `git add .`
+* `git commit -m "current week homework”`
+* `git push`
+* Fill out this [Google Form](https://forms.gle/iaTFamd8Ry38Axa4A) with your github link for that specific homework. It will be the same Google Form for each homework.
 
 ---
 

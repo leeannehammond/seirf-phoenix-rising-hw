@@ -60,7 +60,7 @@ We're going to build a website about some of the craziest code dreams,  using ev
 
 ## Get started
 
-- Navigate to morning exercise folder
+- Navigate to the `student_examples/fluid_floats` folder
 - open `index.html`
 - You should see HTML content. The background should be blue This lets us know that the HTML and CSS files are properly connected.
 

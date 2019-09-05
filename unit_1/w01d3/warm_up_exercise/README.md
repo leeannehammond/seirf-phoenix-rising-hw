@@ -15,7 +15,7 @@ Prerequisites: None<br>
 - Screen Real Estate and Window Management with Spectacle
 - Mac Shortcuts
 - Terminal Shortcuts
-- Atom Settings and Shortcuts
+- VSCode Settings and Shortcuts
 - Typing
 - Misc.
 
@@ -79,11 +79,7 @@ Once it's installed, you should have little glasses ![spectacle](https://i.imgur
 - Update some of your Spectacle preferences.
 
 #### :hourglass: Activity (3 minutes)
-- Try to organize your windows using Spectacle (and then adjusting as needed) like so:
-
-Monitors
-![Monitors Labeled.png](monitors_labeled.png)
-
+- Try to organize your windows using Spectacle (and then adjusting as needed).
 
 <hr>
 
@@ -106,7 +102,7 @@ Monitors
 |Command-Spacebar| Open Spotlight |
 
 #### :hourglass: Activity (5 minutes)
-- Open your Desktop or Documents in atom
+- Open your Desktop or Documents in vscode
 - Go to student examples
 - Make a file
 - Copy ALL (command A)the text from this file (you can copy from the browser)
@@ -174,84 +170,120 @@ If you would learn any two - learn these!
 <hr>
 
 
-## Part 4 - Atom Shortcuts
+## Part 4 - Vscode Shortcuts
+# Awesome VS Code Shortcuts
 
-To make it easier to open our files through terminal, you can use the keyword `atom` in front of your files (or `atom .` to open all the files in the current folder in terminal).
+|Keyboard Symbols| Name|
+|:--------------:|:---:|
+| ⌘ | command |
+| ⌃ | control |
+| ⌥ | option/alt |
+| ⇧ | shift   |
 
-- Open Atom (open atom by clicking on the icon in your dock OR by opening your search `cmd` + `space` and typing `atom`).
-- Click on Atom, and then click on `Install Shell Commands`. You may get a little pop up from atom or _Nothing will happen when you complete these steps._
+[Overview of the VS Code Interface](https://code.visualstudio.com/docs/getstarted/userinterface)
 
-![install shell commands](https://i.imgur.com/XogSUs3.png)
+### PDF summary of all keyboard shortcuts
 
-- You might need to quit terminal _and_ atom (`cmd` + `q`) in order for this to take effect.  
-  - Make sure you are `quitting` terminal and atom, not just closing the program to install shell commands.
+[For MacOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+* Note: all the shortcuts shown below are for macOS.
 
-### Then how do I know it worked?
+[For Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
- 1. Open terminal again (if you had to close it).
- 1. Navigate back into your `deleteme` directory.
- 1. Type `atom .` to open the whole directory, or `atom testing.html` to open just the file (try using the tab autocomplete!) and hit **enter**.  
- 1. Wait a moment, and atom will open the directory or file you requested!
+#### To edit the default shortcuts
+- Pull down menu: `Code` -> `Preferences` -> `Keyboard Shortcuts`
 
- ### Wrapping Text
-You have a limited amount of visible space in your files, so wrapping your text will help you to see all the code in a line without needing to scroll horizontally.
-1. Click on `Atom` and `Preferences`<br>
+### Launching from the command line
+- You can run VS Code from the terminal by typing `code` after adding it to your PATH. 
+- To add `code` to the PATH, open the Command Palette (⇧⌘P) and type `shell command` to find the Shell Command: `Install 'code' command in PATH` command.
 
-![Atom - Preferences](https://i.imgur.com/noPP18H.png)
+![screenshot](https://i.imgur.com/R2sD7oX.png)
 
-2. Select `<> Editor`.  Scroll down and make sure `Soft Tabs` and `Soft Wrap` are checked. <br>
+- Restart the terminal for the new `$PATH` value to take effect. You'll be able to type `code .` in any folder to start editing files in that folder or `code filename.txt` to open that file in VS Code.
 
-![Atom - Soft Wrap](https://i.imgur.com/9e4k5Fo.png)
+### Save Your File
+- `⌘S`
 
-3. Your long lines will now be wrapped. <br>
+### Undo/Redo Typing
+- `⌘Z` - undo typing
+- `⇧⌘Z` - redo typing
 
-![Atom - Soft Wrap](https://i.imgur.com/pU911Al.png)
+### Increase/Decrease Font Size
+- `⌘+` - increase
+- `⌘-` - decrease
 
- ### HTML Boilerplate
- - Every HTML document needs the same basic tags. There's an easy way to do this in Atom.
- - Type `HTML` and hit `tab`. The boilerplate will autocomplete.
- - File types matter.  Notice how we're in a `.html` file!
+### Wrap text in Single Quotes, Double Quotes or Backticks
+- highlight the text you want to wrap in quotes
+- press `'` or `"` 
+- Note: you can use the same process to wrap text in parenthesis, curly braces, and square brackets!
 
- ![html](https://i.imgur.com/OTprVyE.png)
+### Insert HTML boilerplate
+- start with a file that has an `.html` extension
+ - type `! + tab`
 
-### Commenting Code
+### Find a Word in a File
+- `⌘F`
+- Close by pressing `esc`
 
-Whether you're in an HTML, CSS, or JavaScript file, if you want to comment out your code (have the program ignore some lines of code), you can highlight your code and use one command:  `Command` + `/`.
+### Find a Word in a Project
+- `⌘⇧F`
+- Close by pressing `esc`
 
-:eyes: Commented out code looks different depending on the file type, so you'll use this shortcut frequently!
+### [Side by side editing](https://code.visualstudio.com/docs/getstarted/userinterface#_side-by-side-editing)
+- You can open as many editors as you like side by side vertically and horizontally. If you already have one editor open, there are multiple ways of opening another editor to the side of the existing one:
 
-![comment code](https://i.imgur.com/GoxPKPj.png)
-
-#### :hourglass: Activity (2 minutes)
-
-- Write some notes to yourself inside your HTML boilerplate `<body>` tag, and then comment them out using the shortcut!   
-
-**Atom has a lot of cool features**
-:computer: Additional Atom Commands can be found on our [class wiki](../../../../../wiki/Atom-CheatSheet).
-
-### Split Screen
-- If you have more than one file that you'd like to look at in Atom, you can go up to `View` and then choose how you would like your panes to be displayed. <br>
-
-Or you can click and drag the tab to where you'd like your new pane to be!
-
-
-![Atom - Split Pane](https://i.imgur.com/PESTf7r.png)
+- `⌘\` to split the active editor into two.
+- Open to the Side (`⌃Enter`) from the Explorer context menu on a file.
+- Click the Split Editor button in the upper right of an editor. (it looks like a square split into two)
+- Drag and drop a file to any side of the editor region.
+- `Ctrl+Enter` (macOS: `Cmd+Enter`) in the Quick Open (`⌘P`) file list
 
 
-- You can also click and drag the tab, a 'shadow' window will appear of where the tab will go and split, if it is right, just let go, if you want it somewhere else, keep dragging it around.
+### Toggle Comments Multiple Lines at a Time
+- Highlight the code block you want to comment out, then `⌘/`
+- Press  `⌘/` again to uncomment the code.
+- Note: as long as you have saved your file with the proper extension: `.html`, `.css`, `.js` (etc.) the correct comment characters will be used for that language
 
-![split screen](https://media.giphy.com/media/l0Iy2MnL9ejDrf73i/giphy.gif)
+![screenshot](https://i.imgur.com/goRFJ8a.png)
 
-### Indentation
+![screenshot](https://i.imgur.com/fNkHO26.png)
 
-Code is indented to show parent/child relationships and emphasize hierarchy.  It also makes it a lot easier for humans to read.  Take the extra time (that you saved with all your shortcuts!) to indent your code properly _as you write it_.  
 
-![indented code](https://i.imgur.com/RBTvNpo.png)
+### Indent a Block of Code
+- highlight the block of code you want
+- `⌘]` - Move code to the right (alternative `tab`)
+- `⌘[` - Move code to the left (alternative `⇧tab`)
 
-:book: When you have time, check out the [AirBnB style guide](https://github.com/airbnb/javascript)
+![screenshot](https://i.imgur.com/FxG23x4.png)
 
-### Tabs Over Spaces
-When indenting your code, please use the tab button. [Do not use your spacebar](https://youtu.be/SsoOG6ZeyUI).
+![screenshot](https://i.imgur.com/GsebGUj.png)
+
+
+### Move a block of Code
+- `⌥ Up` (Up - up arrow)
+- `⌥ Down` (Down - down arrow )
+
+![screenshot](https://i.imgur.com/CWviaE1.png)
+
+![screenshot](https://i.imgur.com/YlGhEqm.png)
+
+- Note: some indentation may be lost in some cases
+
+### Replace Across Multiple lines
+- Highlight text to be replaced
+- `⌘D` - to highlight next instance (as many as you'd like )
+- `⇧⌘L` - to highlight all isntances
+- <details><summary>Screenshot Highlight One Instance of Text </summary>
+
+![screenshot](https://i.imgur.com/rzbqt3V.png)</details>
+- <details><summary>Screenshot Highlight Subsequent Text `⌘D` </summary>
+
+![screenshot](https://i.imgur.com/ckn1phO.png)</details>
+- <details><summary>Start Typing (See multiple blinking cursors) </summary>
+
+![screenshot](https://i.imgur.com/ERQ7p7n.png)</details>
+-  <details><summary>Click outside of selected area</summary>
+
+![screenshot](https://i.imgur.com/NeKG7jI.png)</details>
 
 <hr>
 
@@ -269,5 +301,4 @@ When indenting your code, please use the tab button. [Do not use your spacebar](
 ## Additional Resources
 
 - [f.lux](https://justgetflux.com/)<br>
-- [Atom Packages](https://atom.io/packages)<br>
-- [Atom Themes](https://atom.io/themes)<br>
+- [VScode Extensions](https://code.visualstudio.com/docs/editor/extension-gallery)<br>

@@ -1,7 +1,7 @@
 # Afternoon lab 
 
 ## Setup
-1. Create a file called `loops_and_boolean_practice.js` in your `student_examples` folder for today.
+1. Create a file called `loops_and_boolean_practice.js` in your `w1d03` folder for today.
 2. Open your file in your text editor using your terminal commands.
 3. Run your code in terminal by running `node loops_and_boolean_practice.js` to see anything that you log from your file as output in your terminal.
 
