@@ -2,6 +2,7 @@
 
 # Software Engineering Immersive Remote Flex - Ada
 
+hello!
 * Course Meeting Details
 * Instructor Team
 * Communication
