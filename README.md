@@ -1,6 +1,6 @@
 ![ga](ga_cog.png) <br>
 
-# Software Engineering Immersive Remote Flex - Ada
+# Software Engineering Immersive Remote Flex - 123
 
 * Course Meeting Details
 * Instructor Team
@@ -14,22 +14,21 @@
 * [Lesson Schedule, Quick Links & Recordings](#class-lessons-recordings)
 
 ## Course Meeting Details
-* **Course Dates**: September 3, 2019 - February 29, 2020
+* **Course Dates**: December 3, 2019 - May 28, 2020
 ### Class Meetings
-* Tuesdays & Wednesdays, 6:30 - 10:00 PM Eastern time
-* Saturdays, 10:00 AM - 5:00 PM Eastern time
+* Tuesdays & Wednesdays, 6:30 PM - 10:00 PM Eastern time (3:30 PM - 7:00 PM Pacific)
+* Saturdays, 10:00 AM - 6:00 PM Eastern time (7:00 AM - 3:00 PM Pacific)
 ### Outcomes
-* Every other Thursday 6:30 - 8:30 PM Eastern time for Outcomes Sessions starting on 9/5
+* Every other Thursday 6:30 - 8:30 PM Eastern time for Outcomes Sessions
 ### Structured Homework
 * Thursdays, 8:30 - 10:30 PM Eastern time for Structured Homework Time
 ### Holidays
-* Thursday, November 28, 2019
-* Saturday, November 30, 2019
-* Tuesday, December 24, 2019
-* Wednesday, December 25, 2019
-* Saturday, December 28, 2019 
-* Tuesday, December 31, 2019
-* Wednesday, January 1, 2019
+* Tues 12/24
+* Weds 12/25
+* Sat 12/28
+* Tues 12/31
+* Weds 1/1
+* Thurs 4/23
 
 ## In Class
 * Before class:
@@ -45,14 +44,14 @@
 
 
 ## Instructor Team
-* Lead Instructor: Madeline O'Moore
-* Instructional Assistant: Magnardo Tavarez
-* Instructional Assistant: Arthur Bernier, Jr.
-* Instructional Assistant: Jenny Xing
+* Lead Instructor: Ira Herman
+* Lead Instructor: Joe Keohan
+* Instructional Assistant: Paul Chapman
+* Instructional Assistant: Jordan
 
 
 ## Communication
-##### Send Madeline and IA's message if:
+##### Send Ira, Joe, and IA's message if:
 * You know in advance that you will be missing a class or multiple classes
 * You're sick, overloaded at work, or something comes up and you can't make it to class last minute
 * You will be 15 or more minutes late to class
