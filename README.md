@@ -78,7 +78,7 @@ Learn the fundamentals of object-oriented programming while receiving support fr
 * `git add .`
 * `git commit -m "current week homework”`
 * `git push`
-* Fill out this [Google Form](https://forms.gle/qcyuaUuzPDozpLHj6) with your github link for that specific homework. It will be the same Google Form for each homework.
+* Fill out this [Google Form](https://forms.gle/NZCYjQj7he8GKibBA) with your github link for that specific homework. It will be the same Google Form for each homework.
 
 
 ## What We Expect From You
