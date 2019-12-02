@@ -32,7 +32,7 @@
 
 ## In Class
 * Before class:
-  * Find the zoom link for the day sent out in the classroom slack channel
+  * Click the zoom link and get ready to hop into class at start time: https://generalassembly.zoom.us/j/783871081
   * Let IA know if you are running late!
 * In class:
   * Review where we are in the course.
