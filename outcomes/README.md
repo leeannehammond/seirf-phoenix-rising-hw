@@ -6,7 +6,7 @@
 #### [Outcomes Homework](/homework.md)
 #### [Session Recordings](/recordings.md)
 #### [Market Info Sheets](/infosheets.md)
-#### [SEIR 1118 Google Drive Folder](https://drive.google.com/drive/folders/1r7UMHI-jYxIzliUU0r68TqzPDA2uir0G)
+#### [SEIR- Flex 123 Google Drive Folder](https://drive.google.com/drive/folders/15I1ArDzo5kIscozxXl4iXuUKeP_3HbkR?usp=sharing)
 
 ## Curriculum 
 #### Outcomes Roadmap
