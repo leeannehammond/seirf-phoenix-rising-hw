@@ -47,7 +47,7 @@
 * Lead Instructor: Ira Herman
 * Lead Instructor: Joe Keohan
 * Instructional Assistant: Paul Chapman
-* Instructional Assistant: Jordan
+* Instructional Assistant: Jordan Wofford
 
 
 ## Communication
