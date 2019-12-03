@@ -59,5 +59,5 @@ Homework due Monday at 7pm:
 - **TARGET LIST** - Find 3 organizations you are interested in from the list above or from your own research. Create a "Target Companies" tab in your personal job tracker and add these 3 companies to your Target list. 
 
 ## Further Reading and Resources: 
-- View the session presentation deck here[https://drive.google.com/file/d/1kSgq-Kh9kdiBwZskqISVzXfQ7Fp03voT/view?usp=sharing].
-- View the session recording here[https://drive.google.com/file/d/1Um4LjDTBgBmLyQeF4Flvvwtix5Usjy--/view?usp=sharing]
+- View the session presentation deck here
+- View the session recording here

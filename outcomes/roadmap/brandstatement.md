@@ -42,10 +42,13 @@ We know this is tough! Remember that this is just a starting point.
 ## Homework: 
 
 Homework due Sunday at 7pm: 
-- **Brand Statement Draft** - Brand statement draft submitted as Google doc via Github Issues.  
+- **Brand Statement Draft** - Brand statement draft submitted as Google doc via Github Issues. 
+
+## Session Resources
+- View Presenation Slides
+- View Recording 
 
 ## Further Reading/Resources:
-- View the session presentation deck [pending].
 - [The Muse: What You Should Be Doing for Your Personal Brand Every Day, Week, and Month](https://www.themuse.com/advice/what-you-should-be-doing-for-your-personal-brand-every-day-week-and-month?utm_source=Sailthru&utm_medium=email&utm_campaign=What%20You%20Should%20Be%20Doing%20for%20Your%20Personal%20Brand%20Every%20Day%2C%20Week%2C%20and%20Month&utm_term=Daily%20Email%20List)
 - [99U: How To Write an "About Me" Page That Gets You Hired](http://99u.com/articles/51669/how-to-write-about-me-section?utm_source=Sailthru&utm_medium=email&utm_campaign=%2A%20New%20BOTW%20Template%209/13/15&utm_term=Sunday%20-%20Best%20of%20The%20Web)
 - [Fast Company: 3 Steps for Breaking the Imposter Syndrome Cycle](http://www.fastcompany.com/3057504/work-smart/3-steps-for-breaking-the-imposter-syndrome-cycle?utm_source=mailchimp&utm_medium=email&utm_campaign=colead-daily-newsletter-featured&position=1&partner=newsletter&campaign_date=03082016)

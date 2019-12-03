@@ -34,7 +34,7 @@
 
 ## In Class
 * Before class:
-  * Find the zoom link for the day sent out in the classroom slack channel
+  * Click the zoom link and get ready to hop into class at start time: https://generalassembly.zoom.us/j/783871081
   * Let IA know if you are running late!
 * In class:
   * Review where we are in the course.
@@ -80,7 +80,7 @@ Learn the fundamentals of object-oriented programming while receiving support fr
 * `git add .`
 * `git commit -m "current week homework”`
 * `git push`
-* Fill out this [Google Form](https://forms.gle/iaTFamd8Ry38Axa4A) with your github link for that specific homework. It will be the same Google Form for each homework.
+* Fill out this [Google Form](https://forms.gle/NZCYjQj7he8GKibBA) with your github link for that specific homework. It will be the same Google Form for each homework.
 
 
 ## What We Expect From You
