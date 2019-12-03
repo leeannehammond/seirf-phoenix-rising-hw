@@ -8,7 +8,7 @@
 
 ## Due Dates and Grading
 
-- You will be assigned homework every week. Outcomes homework is due every **Sunday at 7 pm local**, and you can see each week's assignment in your class calendar. 
+- You will be assigned homework every session. Outcomes homework is due **Sunday at 7 pm local**, before your upcoming outcomes session, and you can see each week's assignment in your class calendar. 
 
 - You will receive feedback on *some* of your homework assignments. I will always check that it's completed. If you have any questions about your work or want additional feedback, please set up a 1:1. 
 
