@@ -1,6 +1,8 @@
 ![ga](ga_cog.png) <br>
 
-# Software Engineering Immersive Remote Flex - 123
+# Software Engineering Immersive Remote Flex - 123: Phoenix Rising
+
+![phoenix](phoenix-rising-from-the-ashes.jpg)
 
 * Course Meeting Details
 * Instructor Team
