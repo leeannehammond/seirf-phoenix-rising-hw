@@ -2,7 +2,7 @@
 
 # Software Engineering Immersive Remote Flex 123...
 
-# ..:: P H O E N I X &nbsp;&nbsp; R I S I N G ::..
+# ......:: P H O E N I X &nbsp;&nbsp; R I S I N G ::......
 
 ![phoenix](phoenix-rising-from-the-ashes.jpg)
 
