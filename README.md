@@ -121,6 +121,22 @@ Let's all agree to:
 * Participate in class
 * Be on video during class
 
+### Our Classroom:
+
+- Open safe environment
+- Take ownership of your experience
+- Check your ego at the door
+- Empathy for your fellow students and support staff
+- Be courteous calm and patient with others. Don't let the stress get to you!
+- Don't compare yourself to others, compare yourself to who you were yesterday
+
+### Mentorship / Collaborative Culture in the Classroom
+
+- Take care of each other
+- Benchmarking: some are good at one thing, others at another. Leverage each other's strengths.
+- Teaching is the best way of truly solidifying your understanding of a concept. Help your classmates.
+- Your classmates will be the best foundation for establishing a professional network in tech! They are your support network and programming friends beyond the class.
+
 ### How To Succeed in a Remote Environment
 
 * No distractions during class. This means no cell phones, children around.
@@ -136,7 +152,7 @@ We will be using breakout rooms to get more personalized learning environments. 
 
 | Day | Warm Up Exercise | Lectures | Labs | Homework | Recording |
 |:---:|:-----------:|:-------:|:-----------:|:-----------:|:-----------:|
-| w01d1 |[](./unit_1/w01d1/warm_up_exercise)| [Expectations, Culture, Success, Intro to Terminal](./unit_1/w01d1/instructor_notes)| [](./unit_1/w01d1/student_labs)|[](./unit_1/w01d1/homework)| [Recording]()
+| w01d1 |[](./unit_1/w01d1/warm_up_exercise)| [Expectations, Culture, Success, Intro to Terminal](./unit_1/w01d1/instructor_notes)| [](./unit_1/w01d1/student_labs)|[](./unit_1/w01d1/homework)| [Recording](https://generalassembly.zoom.us/recording/play/WoyQ1MSQjHDjD78Wc-q4uhJjSMs6pEkIxlwn4oQEjytedR7Ml_C7iXFv6b7-vo8V?continueMode=true)
 | w01d2 |[](./unit_1/w01d2/warm_up_exercise)| [Conditionals, Booleans & Loops](./unit_1/w01d2/instructor_notes)| [Errors, Terminal, While loops, for loops](./unit_1/w01d2/student_labs)|[Terminal, Booleans, Loops](./unit_1/w01d2/homework)|
 | w01d3 |[Setting Up For Success](./unit_1/w01d3/warm_up_exercise)| [Git and Github, CSS Lesson](./unit_1/w01d3/instructor_notes)| [Problem Solving](./unit_1/w01d3/student_labs)|[Github Practice and Resume Page](./unit_1/w01d3/homework)|
 | w02d1 |[Git Pull Upstream Master](./unit_1/w02d1/warm_up_exercise)| [Intro to Conditionals & Loops](./unit_1/w02d1/instructor_notes)| [Loops & Conditionals](./unit_1/w02d1/student_labs)|[](./unit_1/w02d1/homework)|
