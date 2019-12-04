@@ -551,7 +551,7 @@ git commit -m "current week homework”
 git push
 ```
 
-* Fill out this [Google Form](https://forms.gle/iaTFamd8Ry38Axa4A) with your github link for that specific homework. It will be the same Google Form for each homework.
+* Fill out the homework Google Form (from the main class readme) with your github link for that specific homework. It will be the same Google Form for each homework.
 
 
 
