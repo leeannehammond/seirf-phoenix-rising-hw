@@ -2,7 +2,7 @@
 
 # Software Engineering Immersive Remote Flex 123...
 
-# P H O E N I X &nbsp;&nbsp;&nbsp; R I S I N G
+# ..:: P H O E N I X &nbsp;&nbsp; R I S I N G ::..
 
 ![phoenix](phoenix-rising-from-the-ashes.jpg)
 
@@ -13,7 +13,7 @@
 * [HW Submission Procedure](#hw-submission-procedure)
 * What We Expect From You
 * Graduation Requirements
-* Additional Expectations
+* [Additional Expectations](#additional-expectations)
 * Group Work Formats
 * [Lesson Schedule, Quick Links & Recordings](#class-lessons-recordings)
 
