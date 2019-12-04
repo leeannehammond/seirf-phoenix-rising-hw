@@ -24,8 +24,8 @@
 * Saturdays, 10:00 AM - 6:00 PM Eastern time (7:00 AM - 3:00 PM Pacific)
 ### Outcomes
 * Every other Thursday 6:30 - 8:30 PM Eastern time for Outcomes Sessions
-### Structured Homework
-* Thursdays, 8:30 - 10:30 PM Eastern time for Structured Homework Time
+### Office Hours
+* After each class, plus additional hours as announced.
 ### Holidays
 * Tues 12/24
 * Weds 12/25
