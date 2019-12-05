@@ -38,12 +38,11 @@ Answer the questions, write some code and submit the files via slack (see instru
 
 ## Submission Guidelines
 
-- Must be submitted before the next class day, (ie no later than 10am EST) - if you have problems submitting reach out ~15 minutes before the start of class
-- Tonight we'll be submitting via `slack`, since we don't have our github set up completely. See instructions below
+- Must be submitted before next Wednesday, (ie no later than 10am EST) - if you have problems submitting reach out ~15 minutes before the start of class
+- Create and push to a homework repo on your personal github account, then submit the homework form to mark it submitted and let us know how to locate it to grade it.
 
 ### Resources
 - Review the class notes and your work from today
-- [Terminal Cheatsheet](../../../../../wiki/Terminal-Cheatsheet)
 
 <hr>
 
@@ -528,10 +527,10 @@ You will create one new Github Repository for class that will be where you will 
 
 We will walk through this together right now!
 
-* Go to your Github Enterprise homepage
-* Click the plus sign in the upper right hand corner of the GHE Navigation
+* Go to your gitHub homepage
+* Click the plus sign in the upper right hand corner of the Navigation
 * Select **New Repository**
-* Name your repository something like `madeline-seir-flex-ada-homework`
+* Name your repository something like `seirf-phoenix-rising-hw`
 * Make sure to that you repository is created with a `readme.md` and is public (so your instructional team can see your homework)
 * Click **Create Repository**
 * Now we need to clone this repository to our local machines. This will create a connection between your local code and your online submissions!
