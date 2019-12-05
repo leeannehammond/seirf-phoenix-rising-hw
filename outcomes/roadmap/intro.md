@@ -58,6 +58,9 @@ Homework due Monday at 7pm:
 - Review [Organizations that have hired GA SEI Graduates](https://docs.google.com/spreadsheets/d/1eh4skY-5_RyVPyoYTT-3uScwPxYPugOlnV0OLmJiocE/edit?usp=sharing) 
 - **TARGET LIST** - Find 3 organizations you are interested in from the list above or from your own research. Create a "Target Companies" tab in your personal job tracker and add these 3 companies to your Target list. 
 
+- **PERSONAL BRAND SELF REFLECTION** - Finish your [Personal Brand Self Reflection](https://docs.google.com/document/d/1-jmHAyQ4-iZoIDePEBoCFau3IljXw21T1m1ltvLKiFo/edit) and submit to Github Issues. 
+- **PROFESSIONAL STORY** - Write  your [professional story](https://docs.google.com/document/d/1jjx2jUctsgoAldHC8vzEqfJV_AGhXuQvS_ExkLcY9kA/edit?usp=sharing). Use your personal reflections to help write your professional story. Your professional story is a concise story of your professional journey that details who you are, what you do, why you do it, and how you do it. It should have a clear beginning, middle, and end, and highlight skills and achievements, as well as passions and motivators and your unique value. Use these tips and suggestions to craft your professional story. Seek feedback from people you can trust, including your career coach as you craft and revise your professional story. Submit your professional story to Github Issues (in the same issue as the brand self-reflection). 
+
 ## Further Reading and Resources: 
 - View the session presentation deck here
 - View the session recording here
