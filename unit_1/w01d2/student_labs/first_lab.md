@@ -37,15 +37,15 @@ Work through the following prompts in turn:
 
 * Open Terminal
 
-* Navigate to your Documents directory `/User/username/Documents`
+* Navigate to your `seir-flex` directory
 
-* Make a **directory** inside Documents called `w1d1_lab`
+* Make a **directory** inside Documents called `w1d2_lab`
 
-* Go into the `w1d1_lab` directory
+* Go into the `w1d2_lab` directory
 
-* Inside `w1d1_lab`, make a file called `first_lab.js`
+* Inside `w1d2_lab`, make a file called `first_lab.js`
 
-* Open the `w1d1_lab` directory in your text editor
+* Open the `w1d2_lab` directory in your text editor
 
 Write the answers to the rest of this lab in the `first_lab.js` file.
 
