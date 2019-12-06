@@ -36,7 +36,7 @@
 
 ## In Class
 * Before class:
-  * Click the zoom link and get ready to hop into class at start time: https://generalassembly.zoom.us/j/783871081
+  * Click the zoom link and get ready to hop into class at start time: https://generalassembly.zoom.us/j/295888830
   * Let IA know if you are running late!
 * In class:
   * Review where we are in the course.
