@@ -21,7 +21,7 @@
 * **Course Dates**: December 3, 2019 - May 28, 2020
 ### Class Meetings
 * Tuesdays & Wednesdays, 6:30 PM - 10:00 PM Eastern time (3:30 PM - 7:00 PM Pacific)
-* Saturdays, 10:00 AM - 6:00 PM Eastern time (7:00 AM - 3:00 PM Pacific)
+* Saturdays, 10:00 AM - 5:00 PM Eastern time (7:00 AM - 2:00 PM Pacific)
 ### Outcomes
 * Every other Thursday 6:30 - 8:30 PM Eastern time for Outcomes Sessions
 ### Office Hours
