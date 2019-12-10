@@ -4,7 +4,7 @@
 Title: Review: git/github, terminal, and anything we've covered so far & HTML Boilerplate <br>
 Type: Morning Exercise<br>
 Duration: "0:45"<br>
-Modified by: Kristyn Bryan<br>
+Modified by: Ira Herman<br>
 Creator: Karolin Rafalski<br>
 Competencies: git/github, terminal, html fundamentals <br>
 Prerequisites: [Introduction to HTML](https://www.youtube.com/watch?v=DxhXFpsN5I4&index=1&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)<br>
@@ -20,10 +20,10 @@ Let's take some time to make sure we all submitted hw correctly and we are able 
 ### Each of you will interact with three copies of the class repo:
 1. The instructor version
     - accessible to you on github. The github version is known as the 'remote' version or 'on/in the cloud' or 'on the internet'
-      - you can look at the repo in the browser by going to the url: `https://git.generalassemb.ly/Web-Development-Immersive-Remote/WDIR-Speculoos`
+      - you can look at the repo in the browser by going to the url: `https://git.generalassemb.ly/<your class repo location here>`
       - you can get the contents onto your computer (local version) by `git pull upstream master` (we set this up yesterday)
         - `pull` means bring the changes 'here'
-        - `upstream` is just an alias (another name) for the url location of our repo. Computer programers love to work smarter and not harder. By renaming the url to something short, informative and memorable it is much easier to type `upstream` than having to type `https://git.generalassemb.ly/Web-Development-Immersive-Remote/WDIR-Speculoos/tree/master/unit_1/w01d04/morning_exercise` every single time you want to get the changes
+        - `upstream` is just an alias (another name) for the url location of our repo. Computer programers love to work smarter and not harder. By renaming the url to something short, informative and memorable it is much easier to type `upstream` than having to type `https://git.generalassemb.ly/ira/SEIR-FLEX-123/tree/master/unit_1/w02d01/morning_exercise` every single time you want to get the changes
         - `master` is the name of the branch. `master` is the default name of the first branch created. We will learn about branches later. For now, we'll only work with master
 2. Your remote version
  - accessible to you on github by going to the url
@@ -56,7 +56,7 @@ Let's take some time to make sure we all submitted hw correctly and we are able 
 
 - `git push origin master` - this sends your work to your remote copy of the class repo
 
-- Homework submission: create a github issue on the instructor repo that has a link to the location of your homework on your copy of the class repo
+- Homework submission: fill out the homework google form with a link to the location of your homework on your homework repo
 
 ![hw submission](HW_submission.png)
 
@@ -242,7 +242,7 @@ Inside today's Morning Exercise folder:
 
 #### Make a JavaScript file
 1) touch `app.js`
-2) open `app.js` to edit the file in Atom `atom app.js`
+2) open `app.js` to edit the file in VS Code `code app.js`
 3) make a `console.log` in the JS file so that you can verify that it is hooked up. So, on line 1 of your `app.js` file, write the code `console.log("My app.js file is attached")`.
 
 Note: if you have more than one JavaScript file, it would be typical to put those files all in a folder called `js` (or a similar name  - see example with CSS)
@@ -250,14 +250,14 @@ Note: if you have more than one JavaScript file, it would be typical to put thos
 #### Make CSS folder and file
 - Createa  new folder for your css `mkdir css`
 - Navigate inside the `css` folder and create a file called `style.css`
-- Use Atom to edit your `style.css` file.
+- Use VS Code to edit your `style.css` file.
 - Select the `body` and give it a `background-color` [of any color of your choosing](http://htmlcolorcodes.com/)
 - Take a moment to think about how you can tell if you have successfully linked your stylesheet.
 
 <hr>
 
 #### Connect Your Files
-1) Open your `index.html` in Atom (`atom index.html`)
+1) Open your `index.html` in VS Code (`code index.html`)
 2) Write your HMTL code (see above and refrence the videos). HINT: Atom has a built-in way to create an HTML boilerplate! On line 1 of your `index.html` file, type `HTML` and hit `tab`. Note: make sure that you do not put a space after `HTML`.
 3) If you automatically made the tags, they should be tabbed and nested appropriately. If you wrote it from scratch, make sure to nest the tags to show the child / parent relationship.
 4) Add a link to your `app.js` (where does it go? In the head? in the body?)
@@ -284,7 +284,7 @@ Note: if you have more than one JavaScript file, it would be typical to put thos
 1) Use a paragraph tag inside your html and write a short answer to the following: Why were `<b>` (bold) and  `<i>` (italics) tags replaced by `<strong>` (strong) and `<em>` (emphasis) tags as the new standard in HTML 5?
 
 
-## Part 4
-###### Get started on the video on HTML for tonight
+## Part 4 (optional)
+###### Want more HTML know-how? Check out the short video below:
 
 - [HTML 2](https://www.youtube.com/watch?v=KhbnrDhWDdE&index=2&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)
