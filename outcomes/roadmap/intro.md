@@ -50,7 +50,7 @@ Our vision is put into action through programs and activities that foster profes
   - Portfolio/Personal Website
 
 ## Homework:
-Homework due Monday at 7pm:
+Homework due Sunday at 7pm:
 - **HOMEWORK FOLDER** - Create a Google Drive Folder for your Outcomes Homework. Navigate to your Google Drive, Create New > Folder, Name It “GA Outcomes Homework - FirstName LastName”, Click the "Share" button > choose "Advanced" > Select “Anyone who has the link can view”
 - **JOB TRACKER** - Create your personal Job Tracker in your Outcomes Homework folder:
    - Open [this file](https://docs.google.com/spreadsheets/d/1hVj9m9gwOnISwYEebdGE63P1jcARg0C62GEnO8iIhuI/edit#gid=667766200). Click file > **make a copy** > save with your name. 
