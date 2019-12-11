@@ -10,6 +10,7 @@
 * Instructor Team
 * Communication
 * Course Overview
+* Weekly homework cycle/due date
 * [HW Submission Procedure](#hw-submission-procedure)
 * What We Expect From You
 * Graduation Requirements
@@ -74,6 +75,10 @@ Learn to code in JavaScript, the native language of the web used by developers t
 Build a single-page web app that persists user data and connects to services like Twitter and Facebook via APIs.
 
 Learn the fundamentals of object-oriented programming while receiving support from industry experts and a community of peers.
+
+## Weekly homework cycle/due date
+
+Homework assigned on Tuesday, Wednesday, and Saturday is due the following Wednesday by start of class.
 
 ## #hw-submission-procedure
 ### We will walk through this together the first time!
@@ -155,7 +160,7 @@ We will be using breakout rooms to get more personalized learning environments. 
 | w01d1 |[](./unit_1/w01d1/warm_up_exercise)| [Expectations, Culture, Success, Intro to Terminal](./unit_1/w01d1/instructor_notes)| [](./unit_1/w01d1/student_labs)|[](./unit_1/w01d1/homework)| [Recording](https://generalassembly.zoom.us/recording/play/WoyQ1MSQjHDjD78Wc-q4uhJjSMs6pEkIxlwn4oQEjytedR7Ml_C7iXFv6b7-vo8V?continueMode=true)
 | w01d2 |[](./unit_1/w01d2/warm_up_exercise)| [Conditionals, Booleans & Loops](./unit_1/w01d2/instructor_notes)| [Errors, Terminal, While loops, for loops](./unit_1/w01d2/student_labs)|[Terminal, Booleans, Loops](./unit_1/w01d2/homework)| [Recording](https://generalassembly.zoom.us/recording/play/9kdzjATdmvnDPv4BF95VjncE-UuSsnOHBOw6g0uAw_URRmAyUSdpV8Q3lYKsz8cx?continueMode=true)
 | w01d3 |[Setting Up For Success](./unit_1/w01d3/warm_up_exercise)| [Git and Github, CSS Lesson](./unit_1/w01d3/instructor_notes)| [Problem Solving](./unit_1/w01d3/student_labs)|[Github Practice and Resume Page](./unit_1/w01d3/homework)| [Recording](https://generalassembly.zoom.us/recording/play/xxB0KLzw6WubJfEFCBPWyEOKe1mOvsiBrdxOgsVzAQkkmbncV_NeteZrvUgT4y7A?continueMode=true)
-| w02d1 |[Git Pull Upstream Master](./unit_1/w02d1/warm_up_exercise)| [Intro to Conditionals & Loops](./unit_1/w02d1/instructor_notes)| [Loops & Conditionals](./unit_1/w02d1/student_labs)|[](./unit_1/w02d1/homework)|
+| w02d1 |[Git Pull Upstream Master](./unit_1/w02d1/warm_up_exercise)| [Intro to Conditionals & Loops](./unit_1/w02d1/instructor_notes)| [Loops & Conditionals](./unit_1/w02d1/student_labs)|[](./unit_1/w02d1/homework)| [Recording](https://generalassembly.zoom.us/recording/play/3qoP_q1BQvFY5xgIpuA2Kdy5wlj_YHUXO1OoJhX88MAmHnujGAarsKP12IJt9R8W?continueMode=true)
 | w02d2 |[](./unit_1/w02d2/warm_up_exercise)| [Arrays & Iteration](./unit_1/w02d2/instructor_notes)| [Arrays & Conditionals](./unit_1/w02d2/student_labs)|[Arrays, Loops, & Conditionals Drills](./unit_1/w02d2/homework)|
 | w02d3 |[HTML/CSS Mockup Part 1](./unit_1/w02d3/warm_up_exercise)| [Functions, Scope](./unit_1/w02d3/instructor_notes)| [Problem Solving w. Functions](./unit_1/w02d3/student_labs)|[Function Drills & Oscar Mockup](./unit_1/w02d3/homework)|
 | w03d1 |[](./unit_1/w03d1/warm_up_exercise)| [Program Design](./unit_1/w03d1/instructor_notes)| [Waffles Pseudocode](./unit_1/w03d1/student_labs)|[](./unit_1/w03d1/homework)|
