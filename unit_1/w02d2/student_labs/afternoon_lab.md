@@ -120,7 +120,7 @@ const thomsCloset = [
 9. Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to `Footie Pajamas`.
 
 
-### HFM
+### HFM (Hungry for More - Optional Bonus Exercises)
 
 Write a loop that prints the numbers in order
 
@@ -146,7 +146,7 @@ expect:
 Try using `for of` loops instead of a regular `for` loop - does it make sense for this task?
 
 
-### Wildly Ravenous For Even More
+### Wildly Ravenous For Even More (Optional Bonus Exercises)
 
 ##### Spiral Path
 

@@ -410,12 +410,6 @@ Continue looking at the closet arrays:
 ## Deliverables
 There were two parts to the hw, CSS review videos and JavaScript reps and code challenges. Make sure to try and attempt each problem
 
-## Submission Guidelines
-
-- Must be submitted no later than before the start of next class
-- Create an issue on the class repo. Click the issues tab:
-![issues tab](https://i.imgur.com/9IuxV5N.png) - there is a link that will pop up in the issues template to the class wiki called Homework-Submission that you can go to to see a detailed walkthrough with images
-
 
 ---
 
@@ -424,5 +418,5 @@ There were two parts to the hw, CSS review videos and JavaScript reps and code c
 ---
 
 Creator: WDI-Funke<br>
-    Modified by: Kristyn Bryan, Karolin Rafalski<br>
+    Modified by: Ira Herman, Kristyn Bryan, Karolin Rafalski<br>
 ---
