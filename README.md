@@ -10,7 +10,7 @@
 * Instructor Team
 * Communication
 * Course Overview
-* Weekly homework cycle/due date
+* [Weekly homework cycle/due date](#weekly-homework-cycledue-date)
 * [HW Submission Procedure](#hw-submission-procedure)
 * What We Expect From You
 * Graduation Requirements
@@ -80,7 +80,7 @@ Learn the fundamentals of object-oriented programming while receiving support fr
 
 Homework assigned on Tuesday, Wednesday, and Saturday is due the following Wednesday by start of class.
 
-## #hw-submission-procedure
+## HW Submission Procedure
 ### We will walk through this together the first time!
 * Create a new folder inside of your cloned repository on your computer called `current_week_homework` and copy and paste your homework file for week one here. 
 * Push your changes to your repository from your terminal by changing into your repository from your terminal and running the following commands:
