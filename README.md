@@ -78,6 +78,8 @@ Learn the fundamentals of object-oriented programming while receiving support fr
 
 ## Weekly homework cycle/due date
 
+You can expect 8-12 hours of homework each week. Each homework assignment should take no longer than 4 hours to complete and we typically have 2 (sometimes 3) homework assignments per week.
+
 Homework assigned on Tuesday, Wednesday, and Saturday is due the following Wednesday by start of class.
 
 ## HW Submission Procedure
