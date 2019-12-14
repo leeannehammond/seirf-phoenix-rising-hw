@@ -248,16 +248,11 @@ Your commit message should read something like: <br>
 
 ## Deliverables
 
-Answer the questions inside your `solutions.js` code and submit your homework via github issues.
+Answer the questions inside your `solutions.js` code and submit your homework via github and the homework form.
 
 ## Technical Requirements
 
 1. The JavaScript file MUST run without syntax errors. If there are errors you can't solve, comment them out and leave a comment above explaining what is wrong
-
-## Submission Guidelines
-
-- Submit your homework via github issues and please don't forget to fill out the form!
-- Need a reminder on how to submit homework? Take a look at the [wiki guide](https://git.generalassemb.ly/Web-Development-Immersive-Remote/WDIR-Stan-Lee/wiki/Homework-Submission)
 
 ## Resources
 
