@@ -44,7 +44,7 @@ const checkPrime = (num) => {
   for(let i = 2; i <= Math.sqrt(num); i++) {
     // if the number is evenly divisible by the current loop
     if (num % i === 0) {
-      // that means  the number is prime, so return false to terminate the loop
+      // that means the number is NOT prime, so return false to terminate the loop
       return false
     }
   }
