@@ -6,9 +6,7 @@ Project 1 is upon us.  If you follow some simple guidelines, you will grow signi
 
 ## Resources
 
-You can find a lot of helpful cheat sheets on the [wiki](https://git.generalassemb.ly/sei-flex/dan-abramov/wiki).
-
-All previous lessons are on the [YouTube playlist](https://www.youtube.com/playlist?list=PL7paijy8eY-ZomEJJunzNl8JlTJlSmrbV&disable_polymer=true)
+All previous lessons are on the class readme
 
 ## Squad Arrangement
 
