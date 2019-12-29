@@ -287,11 +287,6 @@
 These projects will help you learn to master CSS!  
 We have specific activities and example web pages for you to try to build one or more, using **ONLY** Javascript, HTML, and CSS.  No libraries... build it from scratch :) 
 
-#### Labs 1-2 hours each:
-- [Layout](Additional CSS/0c. Layout/student_labs/README.md)
-- [Advanced Inline Layout](Additional CSS/1. Advanced Inline Layout/student_labs/README.md)
-- [Flex lab](Additional CSS/5. Flex Boxes/student_labs/README.md)
-- [Motion Transform Design](Additional CSS/4. Motion, Transform, and Design/student_labs/README.md)
 
 #### Build Your Own Version:
 - Infinite loop carousel like the main image on https://www.bmo.com/main/personal
