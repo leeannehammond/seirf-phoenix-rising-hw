@@ -217,7 +217,10 @@ Two arrays to work with
 ```js
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 0]
 
-const panagram = ['The', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
+const panagrams = [ 'The','job', 'requires', 'extra', 'pluck', 'and', 'zeal', 'from', 'every', 'young', 'wage', 'earner',  'Quick', 'zephyrs', 'blow,', 'vexing', 'daft', 'Jim', 'Two', 'driven', 'jocks', 'help', 'fax', 'my', 'big',
+  'quiz', 'Five', 'quacking', 'zephyrs', 'jolt', 'my', 'wax', 'bed', 'The', 'five', 'boxing', 'wizards', 'jump', 'quickly', 'Pack',
+  'my', 'box', 'with', 'five', 'dozen', 'liquor', 'jugs', 'We', 'promptly', 'judged', 'antique', 'ivory', 'buckles', 'for', 'the',
+  'next', 'prize', 'Jaded', 'zombies', 'acted', 'quaintly', 'but', 'kept','driving','their','oxen','forward' ]
 
 ```
 
@@ -238,7 +241,7 @@ You don't have to write an answer to the thought questions.
 #### Find
 
 1. Find the first value divisible by 5
-1. find the first word that is longer than 5 characters
+1. find the first word that is longer than 3 characters
 
 #### Find Index
 1. find the index of the first number that is divisible by 3
