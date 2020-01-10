@@ -33,7 +33,6 @@
 * Sat 12/28
 * Tues 12/31
 * Weds 1/1
-* Thurs 4/23
 
 ## In Class
 * Before class:
