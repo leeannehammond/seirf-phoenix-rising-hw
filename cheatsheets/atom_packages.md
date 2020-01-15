@@ -1,4 +1,4 @@
-#Atom Packages & Notes
+# Atom Packages & Notes
 
 This document will recommend some of our favorite packages (plugins, add-ons, whatever you want to call them...they're awesome) for the Atom text editor. These give atom many of the features of a full IDE (Integrated Development Environment).
 
@@ -8,7 +8,7 @@ To browse & install packages, (in the menu bar) go to **Atom** >> **Preferences*
 
 There are links to the package documentation from the Atom site. You can also view instructions on how to use each package from the packages menu **Atom** >> **Preferences** >> **Packages**
 
-##Recommended Packages
+## Recommended Packages
 
 + [**emmet**](https://atom.io/packages/emmet) - Gives extended functionality to the autocomplete feature, allows you to tab-complete.  (Example: With Emmet installed, type `h1` then the `tab` key. You should have a properly opened and closed `h1` tag. )
 
@@ -32,7 +32,9 @@ There are links to the package documentation from the Atom site. You can also vi
 
 + [**Swackets**](https://atom.io/packages/swackets) - Color codes and matches open and closing brackets in your code!
 
-##Optional - Theme
++ [**erb-helper**](https://atom.io/packages/erb-helper) - Adds shortcut keys for your ERB coding including: `CTRL + SHIFT + .` to insert `<%= %>` and `CTRL + .` to insert `<% %>`
+
+## Optional - Theme
 Themes change the look and feel of the Atom editor. Completely optional, but if you want to use our recommended theme, go to **Atom** >> **Preferences** >> **Install**, change the search to **Themes** (right of the search box), and search for your desired Theme. Click **install**.
 
 + [**seti-ui**](https://atom.io/themes/seti-ui) - A dark colored UI theme for Atom with custom file icons.
