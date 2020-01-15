@@ -1,0 +1,20 @@
+
+
+// Filter
+// filter the array for numbers less than 100
+// console.log(smallNums.filter(num => num < 100))
+// console.log(nums.filter(num => num < 100))
+
+// filter words that have an even length
+// console.log(panagram.filter(word => word.length % 2 === 0))
+// console.log(panagrams.filter(word => word.length % 2 === 0))
+
+
+// Map
+// make a new array of each number multiplied by 100
+// const bigNums = smallNums.map(num => num * 100)
+// console.log(bigNums)
+// const manyBigNums = nums.map(num => num * 100)
+// console.log(manyBigNums)
+
+
