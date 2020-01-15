@@ -96,7 +96,7 @@ Add jQuery (where? Does it matter? Not sure? Test it!):
 
 **Important** : You are encouraged to comment out console.logs that you no longer need. There will be no further prompts for this advice.
 
-- [Open up your jQuery magic markdown file](../../../../../wiki/JQuery-Cheatsheet-as-Tables )- for reference
+- [Open up your jQuery magic markdown file](../../../cheatsheets/JQuery-Cheatsheet-as-Tables.md )- for reference
 
 - Make sure that your page loads completely before you start using magical jQuery by adding the following:
 
