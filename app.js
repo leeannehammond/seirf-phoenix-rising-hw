@@ -1,77 +1,170 @@
-// HELLO! I attempted to do a shift array for the battle and am unsure of where
-// exactly it should go or what other code to put before it!!!!
+// test if linked up
+// if (typeof jQuery == 'undefined'){
+//     console.log('oops! I still have to link my jQuery properly!');
+//   } else {console.log('I did it! I linked jQuery and this js file!')};
 
+//////////// Year 1 /////////////////////////////////////
 
+// create a div id called container
+$(() => {
+	$('#container')
+});
+console.log($('#container'))
 
-// Create the Player's ship object:
-let playerShip = {
-  hull: 20,
-  firepower: 5,
-  accuracy: 0.7,
-  // Add methods 
-  attack: enemyShip => {
-    console.log("Player attacking Alien ship");
-    // Check for hit  on playerShip accuracy:
-    if (Math.random() < playerShip.accuracy) {
-      console.log("Attack hit!");
-      enemyShip.hull -= playerShip.firepower;
-    } else {
-      console.log("Attack missed!");
+// create an h1 element
+jQuery.extend({
+    createElement : function(h1) {
+    return jQuery(document.createElement(h1));
     }
-    console.log(enemyShip);
-     //if (Math.random() < alien[0].accuracy) {
-     //console.log('You have been hit!');
-  }
-}
-//  AlienShip class
-class AlienShip {
-  constructor() {
-    // Make hull random between 3 and 6
-    this.hull = Math.floor(Math.random() * 4 + 3);
-    // Make random between 2 and 4
-    this.firepower = Math.floor(Math.random() * 3 + 2);
-    // TODO: Make random between .6 and .8
-    this.accuracy = Math.floor(Math.random() * 3 + 6) * 0.1;
-  }
-  attack() {
-    console.log("Alien Ship attacking");
-    // Check for hit or miss:
-    if (Math.random() < this.accuracy) {
-      console.log("Alien ship hit player!");
-      playerShip.hull -= this.firepower;
-      console.log(`Player Ship hull remaining: ${playerShip.hull}`);
-    } else {
-      console.log("Alien ship missed");
-    }
-  }
-}
-// Start 
-console.log("Generating enemy ships");
-enemy = new AlienShip();
-console.log(enemy);
-// Create a game object - checkwin
-// Turn by turn logic
-// Player ship attacks:
-playerShip.attack(enemy);
-// Check if enemy ship is destroyed:
-if (enemy.hull <= 0) {
-  console.log("Enemy ship destroyed!");
-  let response = prompt("Ship Destroyed, attack or retreat?");
-  if (response === "retreat") {
-    alert("You retreated, game over");
-  } else if (response === "attack") {
-    // TODO: finish this
-    // do attack
-    console.log("Continuing gameplay");
-  }
-} else {
-  // Enemy ship attacks:
-  enemy.attack();
-  // shift array--???? 
-}
-if (fightOneAlien.hull <= 0) {
-  // If enemy ship is destroyed:
-  alienEnemies.shift(); 
+    });
+jQuery.createElement("h1").text("Hogwarts").appendTo("body");
 
-// Retreat option
-// End game logic
+/////////////////// Year 2 //////////////////////////////////////
+
+// h2 element
+jQuery.extend({
+    createElement : function(h2) {
+    return jQuery(document.createElement(h2));
+    }
+    });
+jQuery.createElement("h2").text("Leeanne Hammond").appendTo("body");
+
+// h3 element
+jQuery.extend({
+    createElement : function(h3) {
+    return jQuery(document.createElement(h3));
+    }
+    });
+jQuery.createElement("h3").text("Gryffindor").appendTo("body");
+
+// h4 element
+    
+$(() => {
+    const addH2 = () => {
+      $h2 = $('<h4>').text("Cat");
+      $('body').append($h4);
+    }
+  
+    addH4();
+  });
+
+
+jQuery.createElement("h4").addClass("cat").appendTo("body");
+// not sure how to add name to the class!!!
+// const $h4 = $('<h4>').text('Sebastian') ??
+
+// add wand to h4
+jQuery.extend({
+    createElement : function(h4) {
+    return jQuery(document.createElement(h4));
+    }
+    });
+jQuery.createElement("h4").text("Birch Wand with Phoenix Feather Core").appendTo("body");
+
+////////////////////////// Year 3 ////////////////////////////////////////
+// var ul = document.getElementById("list");
+// var li = document.createElement("li");
+
+// $(li).addClass("list-group-item d-flex justify-content-between align-items-center");
+// $(li).append(document.createTextNode(todoTitle));
+// $(li).append(($('<i class="fa fa-trash-o" aria-hidden="true"></i>')));
+
+// unsure of how to create unordered list with jquery
+
+
+
+///////////////////////// Year 4 //////////////////////////////////////////////
+// create new heading
+jQuery.extend({
+    createElement : function(h5) {
+    return jQuery(document.createElement(h5));
+    }
+    });
+jQuery.createElement("h5").text("Spring 2017").appendTo("body");
+
+/// Make table
+
+function makeTable(container, data) {
+    var table = $("<table/>").addClass('CSSTableGenerator');
+    $.each(data, function(rowIndex, r) {
+        var row = $("<tr/>");
+        $.each(r, function(colIndex, c) { 
+            row.append($("<t"+(rowIndex == 0 ?  "h" : "d")+"/>").text(c));
+        });
+        table.append(row);
+    });
+    return container.append(table);
+}
+
+$(document).ready(function() {
+    var data = [["Monday", "Tuesday","Wednesday", "Thursday", "Friday"], //headers
+                ["Herbology","Potions", "Divination", "Transfiguration", 
+                "Quidditch practice"]]
+    var schedTable = makeTable($(document.body), data);
+});
+
+
+function appendTableColumn(table, rowData) {
+    var lastRow = $('<tr/>').appendTo(table.find('tbody:last'));
+    $.each(rowData, function(colIndex, c) { 
+        lastRow.append($('<td/>').text(c));
+    });
+     
+
+  }
+   
+  $(document).ready(function() {
+      var table = makeTable(data);
+      appendTableColumn(table, ["Herbology", "Divination", "History of Magic",
+    "Charms", "Potions", "Transfiguration", "Defense Against the Dark Arts", "Quidditch practice"]);
+    
+
+});
+
+
+////////////////////////// Year 5 //////////////////////////////////////////////
+// break your wand(remove)
+$('h4').remove()
+
+// drink butter beer(remove)
+$('ul').remove('butter beer')
+// get a new wand ( add element back w/ new text, insert after pet in DOM)
+jQuery.extend({
+    createElement : function(h4) {
+    return jQuery(document.createElement(h4));
+    }
+    });
+jQuery.createElement("h4").text("Elder wand").appendTo("body");
+// give new color of wand:indigo, don't add in css
+$('h4').css('color', 'blue');
+// send pet on spy misson. RM pet from DOM and put elsewhere in HTML
+
+// put pet back to original location
+
+// unable to get pet to show up on page :[[[[[[[
+
+
+/////////////////////////// Year 6 //////////////////////////////////////////////
+// jquery  to hide belongings w/argument of 'slow'
+//$(.ul).hide() ///not working?
+
+// roommate falls asleep 2 seconds later= set timeOut(), combine hide method
+setTimeout(function(){ alert("Roommate is asleep"); }, 2000);
+// add class cabbage to pet's leash 
+$("button").click(function(){
+    $("h4").addClass("cabbage");
+  });
+// add an attribute of color: chartreuse
+$('h4').css('color', 'chartreuse')
+// remove class of cabbage of pet's leash but keep original
+$('h4.class()').remove('cabbage')
+////////////////////////// Year 7 ///////////////////////////////////////////////
+// update class schedule to fall 2018
+$('h5').replaceWith("Fall 2018")
+
+// replace trunk with chest
+// would you use map method? I tried but had no results
+// add some css to page
+$('#theDiv').prepend($('<img>',{id:'theImg',src:'2592037.png'}))
+// screenshot page and add to hw folder
+
