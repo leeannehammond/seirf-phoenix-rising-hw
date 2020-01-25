@@ -145,7 +145,7 @@ Let's all agree to:
 
 ### How To Succeed in a Remote Environment
 
-* No distractions during class. This means no cell phones, children around.
+* No distractions during class. This means no cell phones or other distractions around. Act as if you are physically in the classroom.
 * Make sure to speak up and speak out about any problems you are having! Don't be afraid to ask questions during class! Someone else is probably having this same issue!
 * Carve out at least 10 hours outside a class a week for review and homework. Expect the next 6 months to be out of the norm for you. If you have to carve out a personal hour during a family vacation, you will have to do this!
 * Make use of office hours! Find a time that works for you and don't cancel on your instructors :)
