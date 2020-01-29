@@ -1,0 +1,18 @@
+body {background-color: grey;
+        font-family: cursive
+        ;
+}
+
+.class {font-family: fantasy;
+        opacity: 0.5;
+        }
+
+.table, .th, .td {
+        border-color: gray;
+        border-radius:  1px;
+        border-style: solid;
+}
+
+.table {
+        text-align: center;
+}
