@@ -10,23 +10,36 @@ All previous lessons are on the class readme
 
 ## Squad Arrangement
 
-Squads for Project 1 were assembled based on similar confidence level. In groups of 3-4 students per group.
+All projects are solo and individual (this isn't a group project), but you are encouraged to ask your group for help when you hit a wall and help others out in your group when they are stuck.
 
-### Squad 1
+### Squad 1:
+Chris Murphy
+Dejay Odujoko
+Heather Spoelstra
+Kevin Lai
+Leeanne Hammond
+Jose Rodriguez
+Nancy Schrader
+Phi Huynh
 
-TBA
+### Squad 2:
+Aarik Robles
+Andrei Huiban
+Chris South
+Jake Brenneman
+Jay Glickman
+Loganne Featherston
+Marco Riesgo
 
-### Squad 2
+### Squad 3:
+Charlie Humphrey
+Dan McMahon
+Matt Holmberg
+Scott Horan
+Tara Young
+Tony Cabezon
+Will Szeto
 
-TBA
-
-### Squad 3
-
-TBA
-
-### Squad 4
-
-TBA
 
 ## Instructor Help
 
@@ -62,19 +75,19 @@ Your best truth will come from developer tools and the terminal, even when thing
 
 ## Squad Stand-ups
 
-You will have a squad stand-up at the beginning of Tuesday's and Wednesday's class, as well as at the beginning of Saturday's class, and directly after lunch break on Saturday.  
+You will have a squad stand-up at the beginning of Saturday's class, and directly after lunch break on Saturday. As well as at the beginning of Tuesday's and Wednesday's class.  
 
 ---
 
 # Project #1: Your first application
 
 ## Attendance
-There are no instructor-led lessons during project weeks, but we expect you to be present for every regularly scheduled Zoom session, and we expect you to work on your project approximately 4 hours per day, every day, for the whole week.
+There are no required instructor-led lessons during project weeks (there are some bonus lessons), but we expect you to be present for every regularly scheduled Zoom session, and we expect you to work on your project approximately 4 hours per day, every day, for the whole week.
 
 We also will **still have some attendance checks** during project week, as follows:
 
-  - **Saturday before project week**: You're required to meet up with someone from the instructional staff at whatever time you schedule to approve your project idea by the end of this day. The easiest time to do it is directly after class during office hours, but you may want to schedule this earlier so you can get a start over the weekend.
-  - **Saturday of project week**: Project presentation day! You're required to be in the class zoom starting at 10:00 AM EST. You will have time to tidy up last-minute problems this day, but we **do not advise adding big features** during this time. Presentations will start ~3:00PM EST.
+  - **Wednesday before project week**: You're required to meet up with someone from the instructional staff at whatever time you schedule to approve your project idea by the end of this day. The easiest time to do it is directly after class during office hours, but you may want to schedule this earlier so you can get a start over the weekend.
+  - **Wednesday of project week**: Project presentation day! You're required to be in the class zoom starting at 6:30PM EST. You will have time to tidy up last-minute problems this day, but we **do not advise adding big features** during this time. Presentations will start ~7:30PM EST.
 
 _Failure to make an attendance check will result in an unexcused absence for both morning and afternoon for that day_.
 
@@ -96,7 +109,7 @@ _Failure to make an attendance check will result in an unexcused absence for bot
 
   1. Use AJAX to make a request to an external data source like OMDBapi and insert some of the data retrieved into the DOM
   1. Implement responsive design (i.e. it should be fully functional on desktop, tablet, mobile, etc)
-  1. Have one or more complex user interface modules such as a carousel, drag and drop, a sticky nav, tooltips, etc
+  1. Have one or more complex user interface modules such as a carousel, drag and drop, a sticky nav, tooltips, animations, etc
 
 ### 📋 List of API's
 
@@ -117,6 +130,8 @@ Below is a non-exhaustive list of some free APIs you can use. There are _many_ A
 
 Lastly, the following sites congregate a bunch of APIs together, so you can take a look through their libraries and try to find an API that interests you! Note, however, that not all APIs are free and many listed may require payment. We **highly suggest** to use a free API for your first project dealing with one.  We **also suggest** doing a "hello world" with your API as soon as possible to make sure it does what you want it to do.  **Not all APIs are created equal.**
 
+#### More API's:
+
   1. https://github.com/toddmotto/public-apis
   1. https://rapidapi.com/
 
@@ -136,7 +151,7 @@ Lastly, the following sites congregate a bunch of APIs together, so you can take
 
 1. After your project has been approved, [make a new github repo for your project](https://help.github.com/articles/create-a-repo/). You will be deploying this project onto github pages.
 
-Follow the instructions outlined by github themselves on [github.io](https://pages.github.com/).  You need to select `Project site` and `Start from scratch`.  If you need help, ask during office hours or class on Tuesday.
+Follow the instructions outlined by github themselves on [github.io](https://pages.github.com/).  You need to select `Project site` and `Start from scratch`.  If you need help, ask during office hours or class on right away.
 
 Please note that you will be using a similar process for creating your portfolio later on.
 
@@ -157,16 +172,16 @@ All projects will be presented to the class.  Your presentation should:
 * Explain the technical challenges
 * Explain which improvements you might make
 
-You will be sharing your game and your code.  Be prepared to answer questions from the instructors and other students.
+You will be sharing your project/game and your code.  Be prepared to answer questions from the instructors and other students.
 
 ## Meetings with instructors
-_Reach out to an instructor/IA to set up a meeting time to approve your project. If you don't do this by the Saturday before project week, the instructional staff will reach out to you and decide on a time._
+_Reach out to an instructor/IA to set up a meeting time to approve your project. If you don't do this by the Saturday of project week, the instructional staff will reach out to you and decide on a time._
 
-**By Saturday before project week - Mandatory**<br>
-You will meet with an instructor for ~15 minutes to get your app idea approved. Be sure to sketch out a wireframe, pick out what API you want to use, and write out what features you will need to build in order to meet MVP and some stretch goal ideas _before_ you meet with us!
+**By Saturday of project week - Mandatory**<br>
+You will meet with an instructor for ~5 minutes to get your app idea approved. Be sure to sketch out a wireframe, pick out what API you want to use, and write out what features you will need to build in order to meet MVP and some stretch goal ideas _before_ you meet with us!
 
 ## How to Submit Your Project
-Your project is due on Saturday at 2:30 pm EST. You will present your project and show your code to classmates and instructors.
+Your project is due on Wednesday at 6:30 pm EST. You will present your project and show your code to classmates and instructors.
 
 
 :heavy_check_mark: Add your project to the homework google sheet. Note that this will be the order you present your projects!
@@ -177,16 +192,6 @@ Your project is due on Saturday at 2:30 pm EST. You will present your project an
 2. Seek out help with your classmates
 3. Seek out help with our class IAs
 
-**TA Hours** (all times EST):
-
-TBD
-
-<!--
-- Tuesday: 1:30pm-4:30pm, 7pm-10pm
-- Wednesday: 2pm-5pm, 7pm-10pm
-- Thursday: 2pm-5pm, 7pm-10pm
-- Sunday: 2pm-5pm, 7pm-10pm
--->
 
 ## Suggested Ways to Get Started
 
@@ -207,7 +212,7 @@ Did you add a personal spin or creative element into your project submission? Di
 Did you follow code style guidance and best practices covered in class, such as spacing, indentation, modularity, and semantic naming? Did you comment your code as your instructors have in class?
 
 - **Problem Solving**  
-Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations?
+Are you able to explain why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations?
 
 ## Example Project Idea
 
