@@ -184,7 +184,7 @@ You will meet with an instructor for ~5 minutes to get your app idea approved. B
 Your project is due on Wednesday at 6:30 pm EST. You will present your project and show your code to classmates and instructors.
 
 
-:heavy_check_mark: Add your project to the homework google sheet. Note that this will be the order you present your projects!
+:heavy_check_mark: Add your project to the [Google Sheet](https://docs.google.com/spreadsheets/d/1fS22w516hrhnCq4oJuuUdUQXpVWzxLps8brO4I0ulJc/edit?pli=1#gid=0). Note that this will be the order you present your projects!
 
 
 ## Where to go for help during project week
