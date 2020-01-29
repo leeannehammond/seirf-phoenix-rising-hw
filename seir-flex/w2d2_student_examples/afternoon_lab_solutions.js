@@ -62,3 +62,7 @@ if (num < 5) {
 }  else if (num) {
     console.log("monkey")
 }
+
+////// What's in your closet?
+
+let kristynsCloset = ["left shoe", "cowboy boots", "right sock", "GA hoodie", "green pants", "yellow knit hat", "marshmallow peeps"];
