@@ -12,7 +12,7 @@ All previous lessons are on the class readme
 
 All projects are solo and individual (this isn't a group project), but you are encouraged to ask your group for help when you hit a wall and help others out in your group when they are stuck.
 
-### Squad 1:
+### Squad 1: Joe/Ira
 
 - Chris Murphy
 - Dejay Odujoko
@@ -23,7 +23,7 @@ All projects are solo and individual (this isn't a group project), but you are e
 - Nancy Schrader
 - Phi Huynh
 
-### Squad 2:
+### Squad 2: Paul
 
 - Aarik Robles
 - Andrei Huiban
@@ -33,7 +33,7 @@ All projects are solo and individual (this isn't a group project), but you are e
 - Loganne Featherston
 - Marco Riesgo
 
-### Squad 3:
+### Squad 3: Jordan
 - Charlie Humphrey
 - Dan McMahon
 - Matt Holmberg
