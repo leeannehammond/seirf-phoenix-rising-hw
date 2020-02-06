@@ -16,7 +16,7 @@ Updated: Thom Page <br>
 	* If not, install [Homebrew](https://brew.sh/) by following the instructions on the web page
 	* If brew is already installed `brew upgrade`.
 
-* **Install Mongodb on Mac OS X:** `brew install mongodb`
+* **Install Mongodb on Mac OS X:** `brew install mongodb-community`
 
 ## Set data location
 
