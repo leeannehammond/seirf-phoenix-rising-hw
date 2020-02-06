@@ -20,9 +20,9 @@ Updated: Thom Page <br>
 
 ## Set data location
 
-In terminal type `mongod` to run the mongo server.
+In terminal type `brew services start mongodb/brew/mongodb-community@3.2` to run the mongo server.
 
-You will probably get an error saying
+If you get an error saying:
 > "Data directory `/data/db` not found., terminating"
 	- if so, you will need to make the directories in your **root** directory as follows (do these commands anywhere):
 
@@ -33,7 +33,7 @@ You will probably get an error saying
 * Next, set root permissions
 	* `sudo chmod -R 777 /data`
 
-Run the mongo server again: `mongod`.
+Run the mongo server again: `brew services start mongodb/brew/mongodb-community@3.2`.
 
 Should see: "waiting for connections on port 27017"
 
