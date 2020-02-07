@@ -181,7 +181,7 @@ We will be using breakout rooms to get more personalized learning environments. 
 | **w07d3** - Tues 1/28 & Weds 1/29 |Lab Time| [AJAX, Code Organization, Project Announcement and approvals](./unit_1/w07d3/instructor_notes)| [Return of Dougie and Pizza Rat (AJAX Lab)](./unit_1/w07d3/student_labs)|[](./unit_1/w07d3/homework)| [Recording Tues](https://generalassembly.zoom.us/rec/share/_pF5FIrO31JLQY3k03_RcL8zD7j0eaa8hyQXqfcLnxw5wwDbQ-PQFQ436jC31cl6) - [Recording Weds](https://generalassembly.zoom.us/rec/share/ptJ8F6msr31JEoGT6XHCYrUAGqvZT6a8gHdL__UFnUp-G6ZRyHDERpDV5Mr_REGH)
 | **w08d1** - Sat 2/1 am |[**PROJECT 1**](./unit_1/w08d1/warm_up_exercise)| [](./unit_1/w08d1/instructor_notes)| [](./unit_1/w08d1/student_labs)|[](./unit_1/w08d1/homework)|
 | **w08d2** - Sat 2/1 pm |[**PROJECT 1**](./unit_1/w08d2/warm_up_exercise)| [](./unit_1/w08d2/instructor_notes)| [](./unit_1/w08d2/student_labs)|[](./unit_1/w08d2/homework)|
-| **w08d3** - Tues 2/4 & Weds 2/5 |[**PROJECT 1 PROJECT TIME and Wedesnday Presentations**](./unit_1/w08d3/warm_up_exercise)| [Install MongoDB](./unit_1/w08d3/instructor_notes)| [](./unit_1/w08d3/student_labs)|[Intro to Internet](./unit_1/w08d3/homework)|
+| **w08d3** - Tues 2/4 & Weds 2/5 |[**PROJECT 1 PROJECT TIME and Wedesnday Presentations**](./unit_1/w08d3/warm_up_exercise)| [Install MongoDB](./unit_1/w08d3/instructor_notes)| [](./unit_1/w08d3/student_labs)|[Intro to Internet](./unit_1/w08d3/homework)| [Recording Weds (P1 Presentations!)](https://generalassembly.zoom.us/rec/share/59RFA7Cr50xIHtbvtVD5eZNxOaPjX6a81HIeq_AOykk8w6M-j8Q7tpq3ITohEH9e)
 
 ## Unit 2
 
