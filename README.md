@@ -185,8 +185,8 @@ We will be using breakout rooms to get more personalized learning environments. 
 
 ## Unit 2
 
-| Day | Warm Up Exercise | Lectures | Labs | Homework |
-|:---:|:-----------:|:-------:|:-----------:|:-----------:|
+| Day | Warm Up Exercise | Lectures | Labs | Homework | Recording |
+|:---:|:-----------:|:-------:|:-----------:|:-----------:|:-----------:|
 | **w09d1** - Sat 2/8 am |[CSS Bootstrap Intro](./unit_2/w09d1/warm_up_exercise)| [Intro to the Internet and Express](./unit_2/w09d1/instructor_notes)| [TV Shows](./unit_2/w09d1/student_labs)|[](./unit_2/w09d1/homework)| [Recording Sat](https://generalassembly.zoom.us/rec/share/6ctRNa3070ZLXJ3c8x__R4cqQovBaaa80CQfr_AJmBmvkbb2cspcthJ0Pvie8jOs)
 | **w09d2** - Sat 2/8 pm |[CSS Bootstrap Practice](./unit_2/w09d2/warm_up_exercise)| [Params & Routing](./unit_2/w09d2/instructor_notes)| [Express Calculator](./unit_2/w09d2/student_labs)|[Magic 8 Ball, Pass it Around](./unit_2/w09d2/homework)|
 | w09d3 |[Word Frequency](./unit_2/w09d3/warm_up_exercise)| [REST: Index and Show, MVC, EJS](./unit_2/w09d3/instructor_notes)| [Super Heroes, Fruits, Mars Missions](./unit_2/w09d3/student_labs)|[Poke Express](./unit_2/w09d3/homework)|
