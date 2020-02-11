@@ -29,7 +29,7 @@
 1. Upgrade your `res.send` on the `show` route to send the superhero name as an `h1` and then the powers as `li` items in an `ul` ( hint: use string interpolation or string concatenation )
 1. Writing HTML this way is really tedious and hard to read...I wonder if we'll learn a better way to do this soon?
 
-### Add Villians!
+### Add Villains!
 
 1. Bring in this data and save it to a `villains` variable
 
