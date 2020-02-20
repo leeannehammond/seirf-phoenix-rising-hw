@@ -23,7 +23,7 @@ By Ira Herman
 - `cd name_of_your_express_app`
 - `touch server.js`
 - `npm init`
-- `npm i express ejs`
+- `npm i express ejs method-override`
 - `mkdir views`
 - Create your EJS files (index.ejs, show.ejs, etc) in the `views` folder of your project.
 
@@ -33,6 +33,7 @@ Example starter server.js file:
 // Load express:
 const express = require('express');
 const app = express();
+const methodOverride = require("method-override");
 
 // Set the web server port:
 const port = 3000;
