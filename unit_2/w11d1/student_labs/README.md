@@ -131,6 +131,8 @@ Update `Sara Lance`'s name to be her superhero alias 'White Canary'
 
 Update Rocket's ship to be `The Milano 2`
 
+## Hungry for More
+
 ### Intermediate Mongo
 
 Find the INTERMEDIATE_MONGO.md lecture notes in the instructor notes directory. Follow through each of the explanations. Follow the commands and perform appropriate finds after each update call to see the results
