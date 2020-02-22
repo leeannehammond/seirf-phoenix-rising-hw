@@ -76,7 +76,7 @@ app.get("/items/:id", (req, res) => {
   res.render("show.ejs", { item: items[req.params.id] });
 });
 
-// DELETE
+// DESTROY
 app.delete("/items/:id", (req, res) => {
   items.splice(req.params.id, 1); //remove the item from the array
   res.redirect("/items"); //redirect to index page
