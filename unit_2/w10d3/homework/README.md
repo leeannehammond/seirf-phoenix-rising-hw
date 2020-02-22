@@ -71,7 +71,7 @@ Your app should use RESTful routes:
 const express    = require('express');
 const app        = express();
 
-const Pokemon    = require('../models/pokemon.js');
+const Pokemon    = require('./models/pokemon.js');
 
 // INDEX
 app.get('/', (req, res) => {
