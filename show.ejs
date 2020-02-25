@@ -1,32 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>POKE EXPRESS</title>
-    <!-- styles -->
-    <link rel="stylesheet" href="/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <% include partials/head.ejs %>
   </head>
-  <body>
-    <!-- start pokedex -->
-    <div class="pokedex-container">
-      <!-- pokedex header -->
-      <div class="pokedex-header">
-        <!-- decoration buttons -->
-        <div class="large-button"></div>
-        <div class="small-buttons one"></div>
-        <div class="small-buttons two"></div>
-        <div class="small-buttons three"></div>
-        <!-- header text -->
-        <div class="header-text">
-          <h1><%= pokemon.name.toUpperCase() %>!</h1>
-        </div>
-      </div>
-      <!-- pokedex content -->
-      <div class="pokedex-content">
-        <img src="<%= pokemon.img + '.jpg'%>">
-        <a href="/pokemon" class="back-button">GO BACK!</a>
-      </div>
-    </div>
+  <body style="text-align: center;">
+    <!-- name -->
+    <h1><%=data.name %></h1>
+    <!-- image -->
+    <img src="<%=data.img%>" style="max-width: 300px;">
+    <ul>
+      <!-- types -->
+      <li><strong>type:</strong>
+        <% data.type.forEach((type) => { %>
+          <%= type %>
+        <% }) %>
+      </li>
+      <!-- stats -->
+      <% for(let stat in data.stats) { %>
+        <li><strong><%=stat%>:</strong> <%=data.stats[stat]%></li>
+      <% } %>
+    </ul>
+    <!-- delete -->
+    <form action="/pokemon/<%=index%>?_method=DELETE" method="POST">
+      <input type="submit" value="RELEASE THIS POKEMON">
+    </form>
+    <!-- edit -->
+    <a href="/pokemon/<%=index%>/edit" class="button" style="margin-bottom: 15px">Edit This Pokemon</a>
+    <br />
+    <!-- etc. nav -->
+    <p>
+      <a href="/pokemon/new">Create a Pokemon</a> | <a href="/pokemon">Back to Pokedex</a>
+    </p>
   </body>
 </html>
