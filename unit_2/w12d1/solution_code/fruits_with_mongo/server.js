@@ -1,10 +1,12 @@
 const express = require("express");
 const app = express();
+const methodOverride = require('method-override');
 
 // Load up mongoose npm as mongoose:
 const mongoose = require("mongoose");
-
+// allows server to review json data
 app.use(express.urlencoded({ extended: true }));
+app.use(methodOverride('_method'))
 
 // Connect mongoose to mongo db:
 mongoose.connect("mongodb://localhost:27017/fruitsdb", {
@@ -25,7 +27,7 @@ app.get("/fruits/new", (req, res) => {
 });
 
 // CREATE
-app.post("/fruits/", (req, res) => {
+app.post("/fruits", (req, res) => {
   if (req.body.readyToEat === "on") {
     //if checked, req.body.readyToEat is set to 'on'
     req.body.readyToEat = true;
@@ -39,7 +41,7 @@ app.post("/fruits/", (req, res) => {
   });
 });
 
-// INDEX
+// INDEX..aka SHOW ALL
 app.get("/fruits", (req, res) => {
   Fruit.find({}, (error, fruits) => {
     // res.send(fruits);
@@ -74,8 +76,7 @@ app.get("/fruits/seed", (req, res) => {
   );
 });
 
-// SHOW
-
+// SHOW ONE
 app.get("/fruits/:id", (req, res) => {
   Fruit.findById(req.params.id, (err, foundFruit) => {
     res.render("show.ejs", {
@@ -83,6 +84,14 @@ app.get("/fruits/:id", (req, res) => {
     });
   });
 });
+
+// DELETE
+app.delete("/fruits/:id", (req, res) => {
+  // res.send('deleting...')
+  Fruit.findByIdAndRemove(req.params.id, (err, data) => {
+    res.redirect('/fruits')
+  })
+})
 
 // Web server:
 app.listen(3000, () => {
