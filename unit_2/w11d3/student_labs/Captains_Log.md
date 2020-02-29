@@ -28,12 +28,12 @@ Index, New and Create have been filled out for you.
 |#|Action|URL|HTTP Verb|EJS view filename|mongoose method|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1| Index | /logs/ | GET | index.ejs | Log.find()|
-|2| Show |||||
+|2| Show |/logs/:id| GET | show.ejs| Log.findById(req.params.id) |
 |3| New | /logs/new | GET | new.ejs | none |
 |4| Create | /logs/ | POS T| none | Log.create(req.body)|
-|5| Edit |||||
-|6| Update |||||
-|7| Destroy ||||||
+|5| Edit | /logs/:id/edit | GET| edit.ejs| Log.findById(req.params.id) |
+|6| Update | /loggs/:id | PUT | none | Log.findByIdAndUpdate(req.params.id, req.body, {new:true}|
+|7| Destroy | /logs/:id | DELETE| none | | Log.findByIdAndDelete(req.params.id) |
 
 1. Navigate to your `student_labs` folder
 1. `mkdir captains_log`
