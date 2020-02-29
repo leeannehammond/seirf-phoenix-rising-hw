@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>Logs show page</h1>
+        The <%=logs.name; %> is  <%=logs.entry %>.
+        <% if(logs.shipIsBroken === true){ %>
+            It is ready to eat
+        <% } else { %>
+            It is not broken
+        <% } %>
+        <nav>
+            <a href="/logs">Back to Logs Index</a>
+        </nav>
+    </body>
+</html>
