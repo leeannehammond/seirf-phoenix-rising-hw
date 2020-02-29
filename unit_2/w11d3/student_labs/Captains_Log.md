@@ -33,7 +33,7 @@ Index, New and Create have been filled out for you.
 |4| Create | /logs/ | POS T| none | Log.create(req.body)|
 |5| Edit | /logs/:id/edit | GET| edit.ejs| Log.findById(req.params.id) |
 |6| Update | /loggs/:id | PUT | none | Log.findByIdAndUpdate(req.params.id, req.body, {new:true}|
-|7| Destroy | /logs/:id | DELETE||| Log.findByIdAndDelete(req.params.id) |
+|7| Destroy | /logs/:id | DELETE| none | | Log.findByIdAndDelete(req.params.id) |
 
 1. Navigate to your `student_labs` folder
 1. `mkdir captains_log`
