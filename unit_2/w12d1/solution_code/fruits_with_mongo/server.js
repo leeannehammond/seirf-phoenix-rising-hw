@@ -1,12 +1,12 @@
 const express = require("express");
 const app = express();
-const methodOverride = require('method-override');
+const methodOverride = require("method-override");
 
 // Load up mongoose npm as mongoose:
 const mongoose = require("mongoose");
 // allows server to review json data
 app.use(express.urlencoded({ extended: true }));
-app.use(methodOverride('_method'))
+app.use(methodOverride("_method"));
 
 // Connect mongoose to mongo db:
 mongoose.connect("mongodb://localhost:27017/fruitsdb", {
@@ -89,9 +89,39 @@ app.get("/fruits/:id", (req, res) => {
 app.delete("/fruits/:id", (req, res) => {
   // res.send('deleting...')
   Fruit.findByIdAndRemove(req.params.id, (err, data) => {
-    res.redirect('/fruits')
-  })
-})
+    res.redirect("/fruits");
+  });
+});
+
+// EDIT
+// /fruits/5e5a93cd12675b4c0efcb17e/edit
+app.get("/fruits/:id/edit", (req, res) => {
+  Fruit.findById(req.params.id, (err, foundFruit) => {
+    console.log("foundFruit", foundFruit);
+    res.render("edit.ejs", {
+      fruit: foundFruit
+    });
+  });
+});
+
+// PUT/UPDATE
+app.put("/fruits/:id", (req, res) => {
+  if (req.body.readyToEat === "on") {
+    req.body.readyToEat = true;
+  } else {
+    req.body.readyToEat = false;
+  }
+  // res.send(req.body)
+  Fruit.findByIdAndUpdate(
+    req.params.id,
+    req.body,
+    { new: true },
+    (err, updateModel) => {
+      // res.send(updateModel);
+      res.redirect('/fruits')
+    }
+  );
+});
 
 // Web server:
 app.listen(3000, () => {
