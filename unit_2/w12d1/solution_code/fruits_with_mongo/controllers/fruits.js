@@ -100,8 +100,11 @@ router.put("/:id", (req, res) => {
     req.body,
     { new: true },
     (err, updateModel) => {
-      // res.send(updateModel);
-      res.redirect("/fruits");
+      if (err) {
+      } else {
+        // res.send(updateModel);
+        res.redirect("/fruits");
+      }
     }
   );
 });

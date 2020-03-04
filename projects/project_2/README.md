@@ -3,10 +3,9 @@
 # Project #2: Building Your First Full-Stack Application
 
 ## Attendance
-We will have attendance checks at the beginning of Tuesday's, Wednesday's, and Saturday's class, and an attendance check after lunch on Saturday. Make sure you are on the Zoom call with your video enabled at these times. For the most part, you will just be working the rest of the week (~2-4 hours per day), but there are a few exceptions where punctuality is critical:
+We will have attendance checks at the beginning of Saturday's, Tuesday's, and Wednesday's class, and an attendance check after lunch on Saturday. Make sure you are on the Zoom call with your video enabled at these times. For the most part, you will just be working the rest of the week (~2-4 hours per day).
 
-  - **Tuesday, June 4:** You're required to show up at 6:30 PM ET for a Heroku deployment lesson
-  - **Saturday, June 8:** Project presentation day! You should have your project pushed up by 2:30PM ET, and ready to present by 3:00PM ET.
+- **Wednesday, March 11th**:  Project presentation day! You should have your project pushed up by and ready to present by start of class.
 
 _Failure to make attendance checks will result in an unexcused absence_.
 
@@ -29,13 +28,13 @@ For this project, you will be making a full CRUD app using the technologies outl
 * **Be deployed online** and accessible to the public via **Heroku**
 * **A ``README.md`` file** with explanations of the technologies used, the approach was taken, unsolved problems, user stories, and notes to yourself so you can come back to your project later in the course and be able to pick up your train of thought, etc
 * Have a **link to your hosted working app** in the **`README.md`** file in your github repo
-* Include **sign up/log in** functionality, with encrypted passwords & an authorization flow
+* Include **sign up/log in** functionality, with **encrypted passwords & an authorization flow**
 
 ### &#x1F535; Stretch Goals (Not Mandatory):
 #### Recommended Features
 
 * Add additional relationships (models can be related in a one-to-many relationship, for example)
-  - [Optional notes on having two models](/unit_2/w11d3/instructor_notes/multiple_models)
+  - [Optional notes on having two models](../../unit_2/w11d3/instructor_notes/multiple_models)
 * Use EJS Partials
 * Include portfolio-quality styling
 * Use a CSS framework like Skeleton or Bootstrap
@@ -48,7 +47,7 @@ For this project, you will be making a full CRUD app using the technologies outl
 
 To prepare for the Heroku deployment lesson on Monday, please make sure you create a new **Github** repo for your project and have a basic express server running.
 
-[To see how to get set up for Heroku deployment, take a look at these notes (up to the 'Test your app' section)](/unit_2/w13d1/instructor_notes/heroku.md).
+[To see how to get set up for Heroku deployment, take a look at these notes (up to the 'Test your app' section)](../../unit_2/w13d1/instructor_notes/heroku.md).
 
 :heavy_exclamation_mark: **REMEMBER:** For all projects, you will be creating the new repo's on [GitHub](https://github.com/), **not** GitHub Enterprise!
 
@@ -68,8 +67,16 @@ You will be sharing your app and your code.  Be prepared to answer questions fro
 ## Meetings with instructors
 _You can reach out to your instructional team to set up an approval meeting during any class office hour period (after class Tuesday, Wednesday, or Saturday).  If you have not reached out by Saturday, you will be assigned to an instructor or IA for an approval meeting after class (~5pm ET Saturday)._
 
-**Mandatory by Saturday 6/1**<br>
+**Mandatory by Saturday**<br>
 You will meet with an instructor to get your app idea approved. Be sure to bring the following to this meeting:
+
+* Problem / General App Idea / Who Would Use It
+
+Once approved, plan your project **before any coding**.
+
+### Project planning:
+
+#### When you start your project, start with these items:
 
 - A GitHub repo and a README with the following:
   - At least one wireframe of the front end
@@ -78,21 +85,14 @@ You will meet with an instructor to get your app idea approved. Be sure to bring
 - A Trello containing the user stories needed to complete these features.
 
 ## How to Submit Your Project
-Your project is due on Saturday, June 8 at 2:30 PM ET. Once you have pushed your latest code up, you will present your project and show your code to classmates and instructors.
+Your project is due on Wednesday, March 11 by start of class. Once you have pushed your latest code up, you will present your project and show your code to classmates and instructors.
 
 ## Where to go for help during project week
 1. Seek out help online
 2. Seek out help with your classmates
 3. Seek out help with our class IAs and TA
 
-**Office Hours** (all times ET):
-
-- Sunday: 12-1p ET
-- Monday: 8-9pm ET
-- Tuesday: 10-11pm ET
-- Wednesday: 10-11pm ET
-- Thursday: 830-1030pm ET
-- During class on Tuesday, Wednesday, and Saturday, IAs will alternate between "independent time" (only squad help available in breakout rooms) and "help time" (IAs also available in breakout rooms)
+**Office Hours**
 
 ## Etc.
 
