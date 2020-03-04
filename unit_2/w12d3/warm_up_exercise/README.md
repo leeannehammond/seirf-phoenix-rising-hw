@@ -63,7 +63,7 @@ Right now, only the `index` route has the CSS linked. Let's cut that code out of
 
 ```
   <head>
-    <% include ../partials/head.ejs %>
+    <%- include("../partials/head.ejs") %>
   </head>
 ```
 - don't forget to save and reload the page
@@ -90,7 +90,7 @@ Right now, only the `index` route has the CSS linked. Let's cut that code out of
 - in your 4 ejs files, at the top of the `<body>`:
 
 ```
-  <% include ../partials/nav.ejs %>
+  <%- include("../partials/nav.ejs") %>
 ```
 - be sure to save all your files
 
