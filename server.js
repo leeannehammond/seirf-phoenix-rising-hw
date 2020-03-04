@@ -1,117 +1,62 @@
-// packages
-const express = require('express'),
-      methodOverride = require('method-override'),
-      app = express();
+const express         = require ( 'express' );
+const bodyParser      = require ( 'body-parser' );
+const methodOverride  = require ( 'method-override' );
+const mongoose        = require ( 'mongoose' );
+const app             = express ();
 
-// database
-const pokemon = require('../pokedex/models/pokemon.js');
+//___________________
+//Port
+//___________________
+const PORT            = process.env.PORT || 3000;
 
-// middleware
-app.use(express.static('public'));
-app.use(express.urlencoded({extended:false}));
-app.use(methodOverride('_method'));
+//___________________
+//Database
+//___________________
 
+mongoURI = process.env.MONGOURI ||'mongodb://localhost/karolin_mongoose_store'
 
-// data route
-app.get('/pokedata', (req, res) => {
-  res.send(pokemon);
-})
+//connect to this database - don't forget to start `mongod`
+mongoose.connect( mongoURI );
 
-// index route
-app.get('/', (req, res) => {
-  res.render('index.ejs');
-})
+//set the connection to constiable for easy access`
+const db = mongoose.connection;
 
-// pokedex route
-app.get('/pokemon', (req, res) => {
-  res.render('pokedex.ejs', {
-    // sends pokemon data into the pokedex.ejs page under the variable 'data'
-    data: pokemon
-  });
-})
+//  use this fancy looking stuff to get more useful error messages in your console
+db.on( 'error' , console.error.bind( console , 'connection error: ' ));
+db.once ( 'open' , function () {
+  console.log( 'DB: Connected' );
+});
 
-// new route
-app.get('/pokemon/new', (req, res) => {
-  res.render('new.ejs');
-})
+//___________________
+//Controllers
+//___________________
+//Step 1/3 require the controller to be able to use the products routes
+const productsController = require ( './controllers/products' );
 
-// show route
-app.get('/pokemon/:index', (req, res) => {
-  res.render('show.ejs', {
-    // sends the specific pokemon data into the show.ejs page under the variable 'data '
-    data: pokemon[req.params.index],
-    // sends the index of the pokemon into the show.ejs page under the variable 'index'
-    index: req.params.index
-  })
-})
+//___________________
+//Middleware
+//___________________
+app.use( express.static ( 'public' ) );
 
-// edit route
-app.get('/pokemon/:index/edit', (req, res) => {
-  res.render('edit.ejs', {
-    // sends the specific pokemon data into the show.ejs page under the variable 'data '
-    data: pokemon[req.params.index],
-    // sends the index of the pokemon into the show.ejs page under the variable 'index'
-    index: req.params.index
-  })
-})
+app.use( methodOverride( '_method' ) );// allow POST, PUT and DELETE from a form
+// populates req.body with parsed info from forms - if no data from forms will return an empty object {}
+app.use( bodyParser.urlencoded( { extended : false } ) ); // extended: false - does not allow nested objects in query strings
+
+app.use( bodyParser.json() );// returns middleware that only parses JSON
 
 
-// post route
-app.post('/pokemon', (req, res) => {
-  console.log(req.body);
-  // creates newPokemon object to match the data structure of the model
-  let newPokemon = {
-    name: req.body.name,
-    img: req.body.img,
-    type: req.body.type.split(','),
-    stats: {
-      hp: req.body.hp,
-      attack: req.body.attack,
-      defense: req.body.defense,
-      spattack: req.body.spattack,
-      spdefense: req.body.spdefense,
-      speed: req.body.speed
-    }
-  };
-  console.log(newPokemon);
-  // pushes the newPokemon object into the databse
-  pokemon.push(newPokemon);
-  // redirects to the pokedex
-  res.redirect('/pokemon' );
-})
+app.use( '/products', productsController );
 
-// put route
-app.put('/pokemon/:index', (req, res) => {
-  console.log(req.body);
-  // creates editPokemon object to match the data structure of the model
-  let editPokemon = {
-    name: req.body.name,
-    img: req.body.img,
-    type: req.body.type.split(','),
-    stats: {
-      hp: req.body.hp,
-      attack: req.body.attack,
-      defense: req.body.defense,
-      spattack: req.body.spattack,
-      spdefense: req.body.spdefense,
-      speed: req.body.speed
-    }
-  }
-  console.log(editPokemon);
-  // finds the pokemon we're editing by the index number, then sets it equal to the editPokemon object
-  pokemon[req.params.index] = editPokemon;
-  res.redirect('/pokemon/' + req.params.index);
-})
 
-// delete route
-app.delete('/pokemon/:index', (req, res) => {
-  // splices the pokemon from the 'database' based on its array index
-  pokemon.splice(req.params.index, 1);
-  // redirects to pokedex
-  res.redirect('/pokemon');
-})
+//___________________
+// Routes
+//___________________
+//localhost:3000  - this will reroute to `products`
+app.get( '/' , ( req, res ) => {
+  res.redirect( '/products' );
+});
 
-// listener
-app.listen(3000, () => {
-  console.log('Gotta catch em all on port 3000');
-})
+//___________________
+//Listener
+//___________________
+app.listen( PORT, () => console.log( 'Hurry! Last chance to buy amazing items on port', PORT ));
