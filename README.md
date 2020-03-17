@@ -199,18 +199,18 @@ We will be using breakout rooms to get more personalized learning environments. 
 | **w12d1** - Sat 2/29 AM |[Loop the Loop!](./unit_2/w12d1/warm_up_exercise)| [CRUD Delete, Edit, Update](./unit_2/w12d1/instructor_notes)| [Captains Log Continued](./unit_2/w12d1/student_labs)|[](./unit_2/w12d1/homework)|[Recording Sat](https://generalassembly.zoom.us/rec/share/7t1tJovK7kFOG4X_60aOV5YbNIPDT6a8hCRIrqYLzRzei2IaEMK8P_rLI8FXy0tm)
 | **w12d2** - Sat 2/29 PM |[](./unit_2/w12d2/warm_up_exercise)| [Router](./unit_2/w12d2/instructor_notes)| [Captain's Log Continued](./unit_2/w12d2/student_labs)|[Mongoose Store Cont. ](./unit_2/w12d2/homework)|
 | **w12d3** - Tues 3/3 & Weds 3/4 |[EJS Partials](./unit_2/w12d3/warm_up_exercise)| [Sessions, Auth, Build, Project 2 Announcement, Approvals](./unit_2/w12d3/instructor_notes)| [captains log](./unit_2/w12d3/student_labs)|Work on Project 2 - Start with Auth!|[Recording Tues](https://generalassembly.zoom.us/rec/share/9YtEFYCrqmZJHavj6lHlfKgnPq3fX6a8gHVM_qVfnkw9IybxeVCEfuTEADUmp8Kn) - [Recording Weds](https://generalassembly.zoom.us/rec/share/w-VJCu30zmdLU5H87nv_aqU9IcO1X6a81CcZ86ULzU0AtEUDAH76pAXAyOqFt_Yy)
-| w13d1 |[**PROJECT 2**](./unit_2/w13d1/warm_up_exercise)| [Heroku Mandatory Deployment Lesson](./unit_2/w13d1/instructor_notes)| [](./unit_2/w13d1/student_labs)|[](./unit_2/w13d1/homework)|
-| w13d2 |[**PROJECT 2**](./unit_2/w13d2/warm_up_exercise)| [Related Models Notes (bonus)](./unit_2/w13d2/instructor_notes)| [](./unit_2/w13d2/student_labs)|[](./unit_2/w13d2/homework)|
-| w13d3 |[**PROJECT 2 Presentations**](./unit_2/w13d3/warm_up_exercise)| [](./unit_2/w13d3/instructor_notes)| [](./unit_2/w13d3/student_labs)|[Paradigm Shift SPA, MPA](./unit_3/w13d3/homework)|
+| **w13d1** - Sat 3/7 AM|[**PROJECT 2**](./unit_2/w13d1/warm_up_exercise)| [Heroku Mandatory Deployment Lesson](./unit_2/w13d1/instructor_notes)| [](./unit_2/w13d1/student_labs)|[](./unit_2/w13d1/homework)|
+| **w13d2** - Sat 3/7 PM |[**PROJECT 2**](./unit_2/w13d2/warm_up_exercise)| [Related Models Notes (bonus)](./unit_2/w13d2/instructor_notes)| [](./unit_2/w13d2/student_labs)|[](./unit_2/w13d2/homework)|
+| **w13d3** - Tues 3/10 & Weds 3/11|[**PROJECT 2 Presentations**](./unit_2/w13d3/warm_up_exercise)| [](./unit_2/w13d3/instructor_notes)| [](./unit_2/w13d3/student_labs)||
 
 
 ## Unit 3
 
-| Day | Warm Up Exercise | Lectures | Labs | Homework |
-|:---:|:-----------:|:-------:|:-----------:|:-----------:|
-| w14d1 |[Loop the Loop](./unit_3/w14d1/warm_up_exercise)| [Intro to React, Components](./unit_3/w14d1/instructor_notes)| [Static Dashboard](./unit_3/w14d1/student_labs)|[](./unit_3/w14d1/homework)|
-| w14d2 |[Bubble Sort](./unit_3/w14d2/warm_up_exercise)| [State, Control Flow, .map](./unit_3/w14d2/instructor_notes)| [Korilla Receipts](./unit_3/w14d2/student_labs)|[Groceries](./unit_3/w14d2/homework)|
-| w14d3 |[100 Goblins](./unit_3/w14d3/warm_up_exercise)| [Props, CSS/className, Lifting State, AJAX](./unit_3/w14d3/instructor_notes)| [Dr. Who's Police Box, jService](./unit_3/w14d3/student_labs)|[](./unit_3/w14d3/homework)|
+| Day | Warm Up Exercise | Lectures | Labs | Homework | Recording |
+|:---:|:-----------:|:-------:|:-----------:|:-----------:|:-----:|
+| **w14d1** - Sat 3/14 AM|[Loop the Loop](./unit_3/w14d1/warm_up_exercise)| [Intro to React, Components](./unit_3/w14d1/instructor_notes)| [Static Dashboard](./unit_3/w14d1/student_labs)|[](./unit_3/w14d1/homework)|
+| **w14d2** - Sat 3/14 PM |[Bubble Sort](./unit_3/w14d2/warm_up_exercise)| [State, Control Flow, .map](./unit_3/w14d2/instructor_notes)| [Korilla Receipts](./unit_3/w14d2/student_labs)||[Recording Sat](https://generalassembly.zoom.us/rec/share/3-VWL-DM7FNJXaf0wh7UX6wiP6u1T6a8hnNN_aYEzktYcFd9iOCf8tg0bsMMBTFt)|
+| **w14d3** - Tues 3/17 & Weds 3/18 |[100 Goblins](./unit_3/w14d3/warm_up_exercise)| [Props, CSS/className, Lifting State, AJAX](./unit_3/w14d3/instructor_notes)| [Dr. Who's Police Box, jService](./unit_3/w14d3/student_labs)|[Groceries](./unit_3/w14d2/homework)|
 | w15d1 |[](./unit_3/w15d1/warm_up_exercise)| [Express API](./unit_3/w15d1/instructor_notes)| [Animal Shelter](./unit_3/w15d1/student_labs)|[](./unit_3/w15d1/homework)|
 | w15d2 |[Happy Fun Ball](./unit_3/w15d2/warm_up_exercise)| [Express API cont.](./unit_3/w15d2/instructor_notes)| [Animal Shelter](./unit_3/w15d2/student_labs)|[Bookmarks](./unit_3/w15d2/homework)|
 | w15d3 |[Project Management](./unit_3/w15d3/warm_up_exercise)| [MERN Stack](./unit_3/w15d3/instructor_notes)| [Animal Shelter](./unit_3/w15d3/student_labs)|[Bookmarks cont.](./unit_3/w15d3/homework)|
