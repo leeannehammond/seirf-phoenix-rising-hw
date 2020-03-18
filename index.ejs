@@ -1,34 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8">
-    <title>POKE EXPRESS APP</title>
-    <!-- styles -->
-    <link rel="stylesheet" href="/styles.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"> -->
+    <title>Mongoose Store</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" href="/assets/$.png">
   </head>
   <body>
-    <!-- start pokedex -->
-    <div class="pokedex-container">
-      <!-- pokedex header -->
-      <div class="pokedex-header">
-        <!-- decoration -->
-        <div class="large-button"></div>
-        <div class="small-buttons one"></div>
-        <div class="small-buttons two"></div>
-        <div class="small-buttons three"></div>
-        <!-- header -->
-        <div class="header-text">
-          <h1>GOTTA CATCH 'EM ALL!</h1>
-        </div>
+    <nav>
+      <div class="row nav">
+        <a href="/products"><h1 id="store" class="six columns">The Mongoose Store</h1></a>
+        <span class="three columns">&nbsp;</span>
+        <a href="/products/new"><button type="button" name="button" class="new-product three columns">New Product</button></a>
+        <span class="one column">&nbsp;</span>
       </div>
-      <!-- pokedex content -->
-      <div class="pokedex-content">
-        <ul>
-          <% for(i = 0; i < pokemon.length; i++) { %>
-            <li> <a href="/pokemon/<%=i%>"><%= pokemon[i].name %></a>
-          <% } %>
-        </ul>
+    </nav>
+    <div class="container">
+      <h2>Check Out All The Glorious Wares</h2>
+      <div class="products">
+        <% products.forEach( function (product) { %>
+          <div class="card">
+            <h5> <%= product.name  %></h5>
+            <a href="/products/<%=product.id%>">
+              <img src="<%= product.img %>" alt="An image of <%= product.name %>" /></a>
+              <h6>Price: $<%=product.price %></h6>
+          </div>
+        <% }); %>
       </div>
     </div>
   </body>
