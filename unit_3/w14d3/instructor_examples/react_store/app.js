@@ -16,12 +16,15 @@ class App extends React.Component {
     this.toggleHiring = this.toggleHiring.bind(this)
     this.addToCart = this.addToCart.bind(this)
   }
+
   addToCart (item) {
     this.setState({ cartItems: [item, ...this.state.cartItems] })
   }
+
   handleChange (event) {
     this.setState({ [event.target.id]: event.target.value })
   }
+
   handleSubmit (event) {
     event.preventDefault()
     const newItem = {
@@ -40,6 +43,7 @@ class App extends React.Component {
     this.setState({ isHiring: !this.state.isHiring })
     console.log(this.state.isHiring)
   }
+  
   render () {
     return (
       <div>
