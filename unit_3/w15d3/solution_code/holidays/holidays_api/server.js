@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const cors = require("cors");
 const PORT = 3003;
 
 const holidaysController = require("./controllers/holidays.js");
@@ -21,8 +22,27 @@ mongoose.connection.once("open", () => {
 // middleware
 app.use(express.json()); //use .json(), not .urlencoded()
 
+// CORS middleware:
+const whitelist = [
+  "http://localhost:3000",
+  "https://fathomless-sierra-68956.herokuapp.com"
+];
+const corsOptions = {
+  origin: function(origin, callback) {
+    if (whitelist.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  }
+};
+
+app.use(cors(corsOptions));
+
+// /holidays/ routes
 app.use("/holidays", holidaysController);
 
+// Web server:
 app.listen(PORT, () => {
   console.log("🎉🎊", "celebrations happening on port", PORT, "🎉🎊");
 });
