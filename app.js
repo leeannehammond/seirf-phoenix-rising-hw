@@ -1,77 +1,197 @@
-// HELLO! I attempted to do a shift array for the battle and am unsure of where
-// exactly it should go or what other code to put before it!!!!
-
-
-
-// Create the Player's ship object:
-let playerShip = {
-  hull: 20,
-  firepower: 5,
-  accuracy: 0.7,
-  // Add methods 
-  attack: enemyShip => {
-    console.log("Player attacking Alien ship");
-    // Check for hit  on playerShip accuracy:
-    if (Math.random() < playerShip.accuracy) {
-      console.log("Attack hit!");
-      enemyShip.hull -= playerShip.firepower;
-    } else {
-      console.log("Attack missed!");
+class Line extends React.Component {
+    render () {
+        return (
+            <div className={this.props.divClass}>
+                <h3 className="label">{this.props.label}</h3>
+                <h3 className="contents">{this.props.contents}</h3>
+            </div>
+        )
     }
-    console.log(enemyShip);
-     //if (Math.random() < alien[0].accuracy) {
-     //console.log('You have been hit!');
-  }
 }
-//  AlienShip class
-class AlienShip {
-  constructor() {
-    // Make hull random between 3 and 6
-    this.hull = Math.floor(Math.random() * 4 + 3);
-    // Make random between 2 and 4
-    this.firepower = Math.floor(Math.random() * 3 + 2);
-    // TODO: Make random between .6 and .8
-    this.accuracy = Math.floor(Math.random() * 3 + 6) * 0.1;
-  }
-  attack() {
-    console.log("Alien Ship attacking");
-    // Check for hit or miss:
-    if (Math.random() < this.accuracy) {
-      console.log("Alien ship hit player!");
-      playerShip.hull -= this.firepower;
-      console.log(`Player Ship hull remaining: ${playerShip.hull}`);
-    } else {
-      console.log("Alien ship missed");
-    }
-  }
-}
-// Start 
-console.log("Generating enemy ships");
-enemy = new AlienShip();
-console.log(enemy);
-// Create a game object - checkwin
-// Turn by turn logic
-// Player ship attacks:
-playerShip.attack(enemy);
-// Check if enemy ship is destroyed:
-if (enemy.hull <= 0) {
-  console.log("Enemy ship destroyed!");
-  let response = prompt("Ship Destroyed, attack or retreat?");
-  if (response === "retreat") {
-    alert("You retreated, game over");
-  } else if (response === "attack") {
-    // TODO: finish this
-    // do attack
-    console.log("Continuing gameplay");
-  }
-} else {
-  // Enemy ship attacks:
-  enemy.attack();
-  // shift array--???? 
-}
-if (fightOneAlien.hull <= 0) {
-  // If enemy ship is destroyed:
-  alienEnemies.shift(); 
 
-// Retreat option
-// End game logic
+// create Receipt class
+class Receipt extends React.Component {
+    // order paid state
+    state = {
+        paid: true
+    }
+
+    handlePaid = () => {
+        this.setState({paid: false})    
+    }
+
+    render () {
+        return (
+            <div className="receipt">
+                <h1 className="name">{this.props.name}</h1>
+                <Line 
+                    divClass="main"
+                    label="Main:"
+                    contents={this.props.main}
+                />
+                <Line 
+                    divClass="protein"
+                    label="Protein:"
+                    contents={this.props.protein}
+                />
+                <Line 
+                    divClass="rice"
+                    label="Rice:"
+                    contents={this.props.rice}
+                />
+                <Line 
+                    divClass="sauce"
+                    label="Sauce:"
+                    contents={this.props.sauce}
+                />
+                <Line 
+                    divClass="drink"
+                    label="Drink:"
+                    contents={this.props.drink}
+                />
+                <Line 
+                    divClass="cost"
+                    label="Cost:"
+                    contents={this.props.cost}
+                />
+
+            {console.log(this.state.paid)}
+
+            {this.state.paid ? (
+            <h2>Paid </h2>
+            ) : (
+            <h2>Not Paid</h2>
+            )}
+            
+            </div>
+        )
+    }
+}
+
+
+
+// create App class
+class App extends React.Component {
+    render () {
+        return (
+            <div className="receipt-container">
+                {receipts.map(receipt => (
+                    <Receipt 
+                        name={receipt.person}
+                        main={receipt.order.main}
+                        protein={receipt.order.protein}
+                        rice={receipt.order.rice}
+                        sauce={receipt.order.sauce}
+                        drink={receipt.order.drink}
+                        cost={receipt.order.cost}
+                        paid={receipt.paid}
+                    />
+                ))}
+            </div>
+        )
+    }
+}
+
+// Render App
+ReactDOM.render(
+    <App />,
+    document.querySelector('main')
+    class Line extends React.Component {
+        render () {
+            return (
+                <div className={this.props.divClass}>
+                    <h3 className="label">{this.props.label}</h3>
+                    <h3 className="contents">{this.props.contents}</h3>
+                </div>
+            )
+        }
+    }
+    
+    // create Receipt class
+    class Receipt extends React.Component {
+        // order paid state
+        state = {
+            paid: true
+        }
+    
+        handlePaid = () => {
+            this.setState({paid: false})    
+        }
+    
+        render () {
+            return (
+                <div className="receipt">
+                    <h1 className="name">{this.props.name}</h1>
+                    <Line 
+                        divClass="main"
+                        label="Main:"
+                        contents={this.props.main}
+                    />
+                    <Line 
+                        divClass="protein"
+                        label="Protein:"
+                        contents={this.props.protein}
+                    />
+                    <Line 
+                        divClass="rice"
+                        label="Rice:"
+                        contents={this.props.rice}
+                    />
+                    <Line 
+                        divClass="sauce"
+                        label="Sauce:"
+                        contents={this.props.sauce}
+                    />
+                    <Line 
+                        divClass="drink"
+                        label="Drink:"
+                        contents={this.props.drink}
+                    />
+                    <Line 
+                        divClass="cost"
+                        label="Cost:"
+                        contents={this.props.cost}
+                    />
+    
+                {console.log(this.state.paid)}
+    
+                {this.state.paid ? (
+                <h2>Paid </h2>
+                ) : (
+                <h2>Not Paid</h2>
+                )}
+                
+                </div>
+            )
+        }
+    }
+    
+    
+    
+    // create App class
+    class App extends React.Component {
+        render () {
+            return (
+                <div className="receipt-container">
+                    {receipts.map(receipt => (
+                        <Receipt 
+                            name={receipt.person}
+                            main={receipt.order.main}
+                            protein={receipt.order.protein}
+                            rice={receipt.order.rice}
+                            sauce={receipt.order.sauce}
+                            drink={receipt.order.drink}
+                            cost={receipt.order.cost}
+                            paid={receipt.paid}
+                        />
+                    ))}
+                </div>
+            )
+        }
+    }
+    
+    // Render App
+    ReactDOM.render(
+        <App />,
+        document.querySelector('main')
+    )
