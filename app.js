@@ -1,197 +1,113 @@
-class Line extends React.Component {
-    render () {
-        return (
-            <div className={this.props.divClass}>
-                <h3 className="label">{this.props.label}</h3>
-                <h3 className="contents">{this.props.contents}</h3>
+class DivThree extends React.Component {
+    render() {
+        return(
+            <div onClick={() => this.props.func(this.props.state.name)}>
+                <h3>{this.props.state.name}</h3>
             </div>
         )
     }
 }
 
-// create Receipt class
-class Receipt extends React.Component {
-    // order paid state
-    state = {
-        paid: true
-    }
-
-    handlePaid = () => {
-        this.setState({paid: false})    
-    }
-
-    render () {
+// DIVTWO CLASS
+class DivTwo extends React.Component {
+    render() {
         return (
-            <div className="receipt">
-                <h1 className="name">{this.props.name}</h1>
-                <Line 
-                    divClass="main"
-                    label="Main:"
-                    contents={this.props.main}
+            <div >
+                <DivThree 
+                    state={this.props.state1}
+                    func={this.props.func1}
                 />
-                <Line 
-                    divClass="protein"
-                    label="Protein:"
-                    contents={this.props.protein}
+                <DivThree 
+                    state={this.props.state2}
+                    func={this.props.func2}
                 />
-                <Line 
-                    divClass="rice"
-                    label="Rice:"
-                    contents={this.props.rice}
-                />
-                <Line 
-                    divClass="sauce"
-                    label="Sauce:"
-                    contents={this.props.sauce}
-                />
-                <Line 
-                    divClass="drink"
-                    label="Drink:"
-                    contents={this.props.drink}
-                />
-                <Line 
-                    divClass="cost"
-                    label="Cost:"
-                    contents={this.props.cost}
-                />
-
-            {console.log(this.state.paid)}
-
-            {this.state.paid ? (
-            <h2>Paid </h2>
-            ) : (
-            <h2>Not Paid</h2>
-            )}
-            
             </div>
         )
     }
 }
 
+// DIVONE CLASS
+class DivOne extends React.Component {
+    render() {
+        return (
+            <div>
+                <DivTwo 
+                    state1={this.props.state1}
+                    state2={this.props.state2}
+                    func1={this.props.func1}
+                    func2={this.props.func2}
+                />
+            </div>
+        )
+    } 
+}
 
-
-// create App class
+// APP CLASS
 class App extends React.Component {
-    render () {
+    state = {
+        tardis1: {
+            name: 'Time and Relative Dimension in Space, State 1',
+            caps: false,
+        },
+        tardis2: {
+            name: 'Time and Relative Dimension in Space, State 2',
+            caps: false,
+        }
+    }
+    // function to change tardis1
+    changeTardis1 = (text) => {
+        console.log("function 1 called");
+        if(this.state.tardis1.caps){
+            this.setState({
+                tardis1: {
+                    name: text.toLowerCase(),
+                    caps: false
+                }
+            })
+        } else {
+            this.setState({
+                tardis1: {
+                    name: text.toUpperCase(),
+                    caps: true
+                }
+            })
+        }
+    }   
+    // function to change tardis2
+    changeTardis2 = (text) => {
+        console.log("function 2 called");
+        if(this.state.tardis2.caps){
+            this.setState({
+                tardis2: {
+                    name: text.toLowerCase(),
+                    caps: false
+                }
+            })
+        } else {
+            this.setState({
+                tardis2: {
+                    name: text.toUpperCase(),
+                    caps: true
+                }
+            })
+        }
+    }
+    render() { 
         return (
-            <div className="receipt-container">
-                {receipts.map(receipt => (
-                    <Receipt 
-                        name={receipt.person}
-                        main={receipt.order.main}
-                        protein={receipt.order.protein}
-                        rice={receipt.order.rice}
-                        sauce={receipt.order.sauce}
-                        drink={receipt.order.drink}
-                        cost={receipt.order.cost}
-                        paid={receipt.paid}
-                    />
-                ))}
+            <div>
+                <DivOne 
+                    func1={this.changeTardis1}
+                    func2={this.changeTardis2}
+                    state1={this.state.tardis1}
+                    state2={this.state.tardis2}
+                />
             </div>
         )
     }
 }
 
-// Render App
+// REACT RENDER
 ReactDOM.render(
     <App />,
-    document.querySelector('main')
-    class Line extends React.Component {
-        render () {
-            return (
-                <div className={this.props.divClass}>
-                    <h3 className="label">{this.props.label}</h3>
-                    <h3 className="contents">{this.props.contents}</h3>
-                </div>
-            )
-        }
-    }
-    
-    // create Receipt class
-    class Receipt extends React.Component {
-        // order paid state
-        state = {
-            paid: true
-        }
-    
-        handlePaid = () => {
-            this.setState({paid: false})    
-        }
-    
-        render () {
-            return (
-                <div className="receipt">
-                    <h1 className="name">{this.props.name}</h1>
-                    <Line 
-                        divClass="main"
-                        label="Main:"
-                        contents={this.props.main}
-                    />
-                    <Line 
-                        divClass="protein"
-                        label="Protein:"
-                        contents={this.props.protein}
-                    />
-                    <Line 
-                        divClass="rice"
-                        label="Rice:"
-                        contents={this.props.rice}
-                    />
-                    <Line 
-                        divClass="sauce"
-                        label="Sauce:"
-                        contents={this.props.sauce}
-                    />
-                    <Line 
-                        divClass="drink"
-                        label="Drink:"
-                        contents={this.props.drink}
-                    />
-                    <Line 
-                        divClass="cost"
-                        label="Cost:"
-                        contents={this.props.cost}
-                    />
-    
-                {console.log(this.state.paid)}
-    
-                {this.state.paid ? (
-                <h2>Paid </h2>
-                ) : (
-                <h2>Not Paid</h2>
-                )}
-                
-                </div>
-            )
-        }
-    }
-    
-    
-    
-    // create App class
-    class App extends React.Component {
-        render () {
-            return (
-                <div className="receipt-container">
-                    {receipts.map(receipt => (
-                        <Receipt 
-                            name={receipt.person}
-                            main={receipt.order.main}
-                            protein={receipt.order.protein}
-                            rice={receipt.order.rice}
-                            sauce={receipt.order.sauce}
-                            drink={receipt.order.drink}
-                            cost={receipt.order.cost}
-                            paid={receipt.paid}
-                        />
-                    ))}
-                </div>
-            )
-        }
-    }
-    
-    // Render App
-    ReactDOM.render(
-        <App />,
-        document.querySelector('main')
-    )
+    document.querySelector(".container")
+)
