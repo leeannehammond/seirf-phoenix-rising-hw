@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
