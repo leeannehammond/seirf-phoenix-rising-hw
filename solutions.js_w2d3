@@ -1,0 +1,105 @@
+//  Parameter is a variable that is defined in a function. An argument is the data you pass into the parameters.
+// Console.log is a function that logs the arguments that is used to be passed to the console. Return specifies the value that is returned from a function.
+
+////////////////////////
+/// Palindrome /////////
+///////////////////////
+
+const checkPalindrome =  (string) => {
+    // lower case string
+    // reverse the array
+    // join array
+    const reversedString = string.toLowerCase().split('').reverse().join('')
+    // reversedString is the same that was passed through string
+    if (reversedString === string.toLowerCase()) {
+        return true
+    }
+    // if not, it isn't a palindrome
+    return false
+}
+
+console.log(checkPalindrome('hello Radar')) // => true
+console.log(checkPalindrome('Borscht')) // => false
+
+////////////////////
+// Sum Array //////
+//////////////////
+
+const sumArray = (arr) => {
+    let sum = 0
+    // loop through array and add
+    for(let i = 0; i <arr.length; i++) {
+        sum += arr[i]
+    }
+    return sum
+}
+
+console.log(sumArray([1, 2, 3, 4, 5, 6])) // => 21
+
+//////////////////
+// Prime Numbers//
+//////////////////
+
+const checkPrime = (num) => {
+    // loop from 2 to square root 
+    for(let i =2; i <= Math.sqrt(num); i ++) {
+        if (num % i === 0) {
+            // this means the number is not prime
+            return false
+        }
+    }
+    // if loop returns false, it is not divisible
+    return true
+}
+
+console.log(checkPrime(25));
+
+// print primes
+const printPrimes = (limit) => {
+    // loop from 0 up
+    for(let i = 0; i <= limit; i++) {
+        // check if current loop is prime
+        if (checkPrime(i)) {
+            // log number if it is prime
+            console.log(i)
+        }
+    }
+}
+
+printPrimes(98);
+
+//////////////////////
+// Rock Paper Scissors//
+/////////////////////
+
+const randomMove = () => {
+    // array of moves
+    const moveArray = ["rock", "paper", "scissors"]
+    // create random number
+    const randomNum = Math.floor(Math.random()*(moveArray.length))
+    console.log(randomNum)
+    // random move return
+    return moveArray[randomNum]
+}
+
+// round of game
+let computersMove = randomMove()
+let usersMove = randomMove()
+
+const rockPaperScissors = (computersMove, usersMove) => {
+    console.log('computer chose', computersMove)
+    console.log('user chose', usersMove)
+    //check who the winner is
+    if(computersMove === usersMove) {
+        console.log("Played the same move, tie!");
+    } else if(computersMove === "rock") {
+        if(usersMove === "paper") { console.log("paper beats rock, user wins") }
+        else if(usersMove === "scissors") { console.log("rock beats scissors, computer wins") }
+        } else if (computersMove === "paper") {
+            if(usersMove === "rock") { console.log("paper beats rock, computer wins") }
+        } else {
+            if(usersMove === "rock") {console.log("rock beats scissors, user wins") }
+            else if(usersMove === "paper") { console.log("scissors beats paper, computer wins") }
+        }
+        }
+rockPaperScissors(computersMove, usersMove);

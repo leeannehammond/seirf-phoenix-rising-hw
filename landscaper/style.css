@@ -1,0 +1,97 @@
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #0D2C40;
+    letter-spacing: 1px;
+    font-size: 45px;
+    text-transform: uppercase;
+    background-color: green;
+    color: #FFFFFF;
+    padding: 30px 20px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    
+    }
+    nav {
+      background-color:green;
+      color: #FFFFFF;
+      padding: 20px 0 auto;
+      text-align: center;
+    }
+    a {
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        font-weight: 600
+        font-size: 18px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 20px 0;
+        background-color: green;
+      display: inline-block;
+      padding: 0 20px;
+      border-bottom: 2px solid transparent;
+      text-align: center;
+    }
+    h2 {
+        font-family: "Raleway", sans-serif;
+        color: #0D2C40;
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: uppercase;
+      text-align: center;
+    }
+    p {
+    font-family: "Droid Serif", serif;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    }
+    body {
+        text-align: center;
+        text-decoration: none;
+        margin: 0 auto;
+      display: inline-block;
+    }
+    main {
+        width: 850px;
+        margin: 35px 0 auto;
+    }
+    div {
+        margin: 40px 8px;
+    }
+    footer {
+      text-transform: uppercase;
+      padding: 0 20px;
+      background-color: #0D2C40;
+      color: white;
+      font-size: 14px;
+      letter-spacing: .08em;
+      font-weight: 500;
+    }
+    .copyright {
+     font-family: "Raleway";
+     float: left;
+    }
+    .message {
+      float: right;
+      font-family: "Raleway";
+    }
+    .clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+    }
+    .name {
+      color: #F15B31;
+      font-weight: 700;
+    }
+    a:hover {
+      border-color: white;
+    }

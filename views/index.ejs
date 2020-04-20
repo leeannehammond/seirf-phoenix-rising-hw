@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budgtr</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Functions -->
+    <% let account = 0; %>
+    <% function getBankAccount() { %>
+    <%     account = 0; %>
+    <%     for(let i=0;i<items.length;i++) { %>
+    <%          account += items[i].amount; %>
+    <%      } %>    
+    <% } %>
+    <% getBankAccount() %>
+
+    <h1>Budgtr</h1>
+    <div class="bank-account">
+        <h3>Bank Account: <span id="amount"><%= account %></span></h3>
+    </div>
+    <button onclick="window.location.href='budget/new'">NEW ITEM</button>
+    <div class="container">
+    <table>
+    <% for(let i=0;i<items.length;i++) { %>
+            <tr>
+                <td><%= items[i].date %></td>
+                <td><a href= <%="/budget/" + i %> ><%= items[i].name %></a></td>
+                <td><%= items[i].amount %></td>
+            </tr>
+    <% } %>
+    </table>
+</body>
+</html>
