@@ -1,0 +1,20 @@
+{
+  "name": "models",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pokemon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeannehammond/seirf-phoenix-rising-hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leeannehammond/seirf-phoenix-rising-hw/issues"
+  },
+  "homepage": "https://github.com/leeannehammond/seirf-phoenix-rising-hw#readme"
+}

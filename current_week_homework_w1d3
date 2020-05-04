@@ -1,0 +1,101 @@
+//  Git & Github Questions
+// 1. git add .
+// 2. git status
+// 3. git commit -m 'some message'
+// 4. git log
+// 5. git push origin dev
+// git commit -m 'The 1st set of GIT homework answers are complete'
+
+// Loops
+// 1.
+for (let i=1; i <=99; i++) {
+    console.log(i);
+}
+
+// 2.
+for (let i= 99; i <=0; i-->) {
+    console.log(i);
+}
+
+// 7.
+for (let i= 49; i <=72; i++>) {
+    console.log(i);
+}
+
+// 8.
+for (let i= 81; i <=26; i-->) {
+    console.log(i);
+}
+
+// 9.
+for (let i= 3; i <=90; i+=3>) {
+    console.log(i);
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <h1>Grumpy Cat</h1>
+    <h3>Previous work experience</h3>
+    <img src="https://imgur.com/Tu07jMc">
+    <ul>
+      <li>Professional model</li>
+      <li>Actor</li>
+      <li>Meme lord</li>
+  <nav>
+    <a href="www.facebook.com/grumpycat18" target = "_blank"> Facebook link</a>
+    <a href="www.linkedin.com/grumpycat" target = "_blank"> LinkedIn</a>
+    <a href="file:///Users/leeannehammond/Desktop/first_homework/resume_page/index.html" target ="_blank"> Home Page</a>
+    <a href="file:///Users/leeannehammond/Desktop/first_homework/resume_page/projects.html" target = "_blank" target = "_blank"> Projects</a>
+
+  </nav>
+  </body>
+</html>
+
+
+
+
+<h1>
+text-align: center;
+font: "Open Sans", sans-serif;
+</h1>
+
+<h3>
+font-color: black;
+</h3>
+
+<body>
+margin-left: 2.5em;
+padding: 0 7em 2em 0;
+text-align: justify;
+</body>
+
+
+
+
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<h2>Projects</h2>
+<ol>
+  <li>Meme challenge</li>
+  <li>Creating a fabulous instagram account</li>
+  <li>Setting up a travel blog</li>
+
+<nav>
+  <a href="www.facebook.com/grumpycat18" target = "_blank"> Facebook</a>
+  <a href="www.linkedin.com/grumpycat" target = "_blank"> LinkedIn</a>
+  <a href="file:///Users/leeannehammond/Desktop/first_homework/resume_page/index.html" target ="_blank"> Home Page</a>
+  <a href="file:///Users/leeannehammond/Desktop/first_homework/resume_page/projects.html" target = "_blank" target = "_blank"> Projects</a>
+</nav>
