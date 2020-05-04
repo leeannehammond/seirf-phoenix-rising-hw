@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= item.name %></title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><%= item.name %></h1>
+        <button onclick="window.location.href='/budget/'">Back</button>
+        <div class="date">Date: <span><%= item.date %></span></div>
+        <div class="name">Name: <span><%= item.name %></span></div>
+        <div class="from">From: <span><%= item.from %></span></div>
+        <div class="amount">Amount: <span><%= item.amount %></span></div>
+        <div class="tags">Tag:
+            <% for(let i=0;i<item.tags.length;i++) { %>
+                <span><%= item.tags[i] %></span>
+            <% } %>
+        </div>
+    </div>
+</body>
+</html>
